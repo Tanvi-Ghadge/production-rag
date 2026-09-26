@@ -1,0 +1,100 @@
+INCIDENT POSTMORTEM — INC-4471
+Nimbus Analytics — Platform Engineering
+
+Severity: SEV-2
+Status: Resolved
+Date of incident: 11 Feb 2026
+Author: On-call engineer (rotation: platform-oncall-week7)
+Reviewed by: Platform Engineering Lead, SRE Manager
+
+Summary
+--------
+Between 02:14 AM and 04:52 AM IST on 11 Feb 2026, the ingestion pipeline for
+the client-facing analytics dashboard experienced degraded throughput,
+causing delayed data refreshes for approximately 340 enterprise accounts.
+No data was lost. Root cause was a connection pool exhaustion issue in the
+data-warehouse proxy layer following a routine dependency upgrade the
+previous evening.
+
+Timeline
+--------
+01:58 - Deployment of warehouse-proxy v2.14.0 completes via standard CD
+pipeline. No alerts fired at deploy time.
+02:14 - PagerDuty alert fires: "ingestion-queue-lag > 15min, 3 consecutive
+checks". On-call engineer acknowledges within 4 minutes.
+02:22 - Initial triage shows queue consumers healthy, but downstream writes
+to warehouse timing out intermittently. CPU/memory on proxy pods normal.
+02:40 - Engineer escalates to Platform Lead after ruling out network and
+consumer-side causes. Suspicion shifts to the proxy layer itself given
+timing correlation with the 01:58 deploy.
+03:05 - Confirmed: warehouse-proxy v2.14.0 changed the default connection
+pool size from 200 to 50 per pod as part of an upstream library bump
+(pgbouncer-client 4.2 -> 5.0), which was not called out in that library's
+changelog under a "breaking changes" heading, only buried in a config
+migration note.
+03:12 - Rollback initiated to warehouse-proxy v2.13.4.
+03:41 - Rollback completes across all 6 regions. Queue lag begins
+recovering almost immediately.
+04:52 - Queue lag returns to baseline (<2min) across all regions.
+Incident declared resolved.
+06:00 - Customer success team notifies affected accounts per SEV-2
+communication protocol; 12 accounts submit support tickets asking about
+dashboard freshness during the window, all closed with an explanation by
+end of day.
+
+Root cause
+----------
+The dependency bump from pgbouncer-client 4.2 to 5.0 silently changed a
+default configuration value (max_pool_size) that our deployment manifests
+did not explicitly override. Because our CI test suite does not run
+load-representative traffic against the proxy layer (only functional
+correctness tests), the reduced pool size did not surface as a failure
+until production traffic volume exceeded what 50 connections per pod could
+sustain, which happens reliably only during the early-morning batch
+ingestion window when data volume is highest.
+
+Contributing factors
+---------------------
+- Dependency upgrades below the top-level service (i.e., transitive
+  dependency bumps) are not currently subject to the same change-review
+  process as direct service deployments.
+- No pre-production load test exists for the warehouse-proxy layer
+  specifically; load tests exist for the API gateway and the ingestion
+  queue, but not this middle layer.
+- The connection pool size was never explicitly set in our Helm values
+  file, meaning we were silently relying on the library's default rather
+  than a value we chose deliberately.
+
+Action items
+------------
+1. [Platform Eng, owner: R. Menon] Explicitly set max_pool_size in the
+   warehouse-proxy Helm chart rather than relying on library defaults.
+   Target: 18 Feb 2026. Status: Done.
+2. [Platform Eng, owner: R. Menon] Add a load-representative smoke test to
+   the warehouse-proxy CI pipeline that simulates peak batch-ingestion
+   traffic before allowing a deploy to production. Target: 28 Feb 2026.
+   Status: In progress.
+3. [SRE, owner: A. Fernandes] Extend the dependency-upgrade review
+   checklist to require changelog review for transitive dependencies two
+   levels deep, not just direct dependencies. Target: 5 Mar 2026.
+   Status: Not started.
+4. [SRE, owner: A. Fernandes] Add an alert specifically for connection
+   pool utilization (not just queue lag), so this class of issue surfaces
+   before customer-facing symptoms appear. Target: 10 Mar 2026.
+   Status: Not started.
+
+Customer impact
+----------------
+No data loss occurred. 340 enterprise accounts experienced dashboard data
+that was up to 2 hours 38 minutes stale during the incident window. Per
+the SEV-2 SLA, affected accounts on Enterprise-tier contracts are eligible
+for a service credit if they submit a claim within 30 days; as of this
+writing, 4 accounts have submitted claims, all approved.
+
+Related incidents
+-------------------
+This is the second connection-pool-related incident in the past two
+quarters (see INC-4103, Sept 2025, unrelated root cause but similar
+symptom profile). Given the recurrence, the SRE Manager has requested a
+broader audit of default configuration values across all proxy and
+middleware services, tracked separately as INITIATIVE-88.
