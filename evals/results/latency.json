@@ -1,0 +1,48 @@
+{
+  "source": "C:\\Users\\HP\\Desktop\\production-rag\\evals\\results\\runtime-evidence.json",
+  "note": "Descriptive metrics from captured successful traces; not a controlled benchmark.",
+  "stages": {
+    "total": {
+      "count": 5,
+      "p50_ms": 43401.94,
+      "p95_ms": 61399.07
+    },
+    "input_guard": {
+      "count": 4,
+      "p50_ms": 0.696,
+      "p95_ms": 1.456
+    },
+    "rewrite": {
+      "count": 4,
+      "p50_ms": 0.013,
+      "p95_ms": 0.015
+    },
+    "retrieve": {
+      "count": 4,
+      "p50_ms": 40493.505,
+      "p95_ms": 55121.582
+    },
+    "assemble": {
+      "count": 4,
+      "p50_ms": 1918.417,
+      "p95_ms": 1969.714
+    },
+    "generate": {
+      "count": 4,
+      "p50_ms": 97.078,
+      "p95_ms": 14087.038
+    }
+  },
+  "cache_latency": {
+    "hit": {
+      "count": 3,
+      "p50_ms": 43401.94,
+      "p95_ms": 59423.31
+    },
+    "miss": {
+      "count": 2,
+      "p50_ms": 32098.73,
+      "p95_ms": 61399.07
+    }
+  }
+}

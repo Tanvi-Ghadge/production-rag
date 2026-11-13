@@ -1,0 +1,94 @@
+{
+  "answer_evaluation_version": "grounded-context-v8-rerank-stage-trace",
+  "label_count": 30,
+  "evaluated_count": 30,
+  "labeler_basis": [
+    "reference answer checked against cited chunk text; source IDs and tenant verified"
+  ],
+  "agreement": {
+    "faithful": {
+      "n": 30,
+      "matches": 30,
+      "rate": 1.0,
+      "cohens_kappa": 1.0
+    },
+    "correct": {
+      "n": 30,
+      "matches": 13,
+      "rate": 0.4333,
+      "cohens_kappa": 0.0
+    },
+    "refusal_correct": {
+      "n": 30,
+      "matches": 30,
+      "rate": 1.0,
+      "cohens_kappa": 1.0
+    },
+    "citation_correct": {
+      "n": 30,
+      "matches": 18,
+      "rate": 0.6,
+      "cohens_kappa": 0.0
+    }
+  },
+  "key_facts_calibration_65": {
+    "n": 65,
+    "faithful": {
+      "n": 65,
+      "matches": 65,
+      "rate": 1.0,
+      "cohens_kappa": 1.0
+    },
+    "correct": {
+      "n": 65,
+      "matches": 53,
+      "rate": 0.8154,
+      "cohens_kappa": 0.5522
+    }
+  },
+  "category_breakdown": {
+    "adversarial": {
+      "questions": 15,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "refusal_accuracy": 1.0,
+      "citation_accuracy": 1.0
+    },
+    "factoid": {
+      "questions": 40,
+      "faithfulness": 1.0,
+      "correctness": 0.3969,
+      "refusal_accuracy": 1.0,
+      "citation_accuracy": 0.6
+    },
+    "multi_hop": {
+      "questions": 20,
+      "faithfulness": 0.9,
+      "correctness": 0.2551,
+      "refusal_accuracy": 1.0,
+      "citation_accuracy": 0.5
+    },
+    "table_lookup": {
+      "questions": 15,
+      "faithfulness": 1.0,
+      "correctness": 0.226,
+      "refusal_accuracy": 1.0,
+      "citation_accuracy": 0.2667
+    },
+    "unanswerable": {
+      "questions": 15,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "refusal_accuracy": 1.0,
+      "citation_accuracy": 1.0
+    },
+    "version_sensitive": {
+      "questions": 15,
+      "faithfulness": 1.0,
+      "correctness": 0.5561,
+      "refusal_accuracy": 1.0,
+      "citation_accuracy": 0.6
+    }
+  },
+  "ci_answer_gate": "disabled until independent human calibration is confirmed"
+}

@@ -1,0 +1,217 @@
+{
+  "timestamp": "2026-11-10T08:40:41Z",
+  "config": {
+    "retriever": "pgvector",
+    "cohere_configured": true,
+    "redis_configured": true
+  },
+  "health": {
+    "status_code": 200,
+    "latency_ms": 2554.19,
+    "body": {
+      "status": "ok",
+      "retriever": "pgvector",
+      "index": true,
+      "chunks": 5029,
+      "pgvector_chunks": 5029
+    }
+  },
+  "queries": [
+    {
+      "name": "supported_tenant_A",
+      "status_code": 200,
+      "latency_ms": 59423.31,
+      "trace_id": "9c0067bb70fa47f4a9f7bf6bca55563a",
+      "trace": {
+        "input_guard": {
+          "latency_ms": 1.456,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "rewrite": {
+          "latency_ms": 0.014,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "retrieve": {
+          "latency_ms": 55121.582,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "assemble": {
+          "latency_ms": 1969.714,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "generate": {
+          "latency_ms": 79.093,
+          "tokens": 93,
+          "cost": 0.0
+        }
+      },
+      "refused": false,
+      "cache_hit": true,
+      "citation_tenants": [
+        "A"
+      ],
+      "citation_ids": [
+        "ec1229bdf2d9913a0e8848f8",
+        "cc0a0220b2f4b3f8695f54dc",
+        "ac8f7390e1caa04ae1f123c8",
+        "dbbc437f80177d6a05fe5fc2"
+      ]
+    },
+    {
+      "name": "unsupported_off_topic",
+      "status_code": 200,
+      "latency_ms": 2798.39,
+      "trace_id": null,
+      "trace": null,
+      "refused": true,
+      "cache_hit": false,
+      "citation_tenants": [],
+      "citation_ids": []
+    },
+    {
+      "name": "tenant_B",
+      "status_code": 200,
+      "latency_ms": 61399.07,
+      "trace_id": "0507be584c924699b4a213a0a44fd97a",
+      "trace": {
+        "input_guard": {
+          "latency_ms": 0.758,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "rewrite": {
+          "latency_ms": 0.015,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "retrieve": {
+          "latency_ms": 43019.93,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "assemble": {
+          "latency_ms": 1834.747,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "generate": {
+          "latency_ms": 14087.038,
+          "tokens": 157,
+          "cost": 0.0
+        }
+      },
+      "refused": false,
+      "cache_hit": false,
+      "citation_tenants": [
+        "B"
+      ],
+      "citation_ids": [
+        "74453607f088de8520322f52",
+        "7eedc615eb8da5ff958874d8",
+        "e1586562c19b1eab127fec07",
+        "f2a1b1cd86a114f99e58d158"
+      ]
+    }
+  ],
+  "cache_repeat": {
+    "first": {
+      "name": "cache_first",
+      "status_code": 200,
+      "latency_ms": 37627.27,
+      "trace_id": "35cffeaa1d2c4382938aff46380c5387",
+      "trace": {
+        "input_guard": {
+          "latency_ms": 0.6,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "rewrite": {
+          "latency_ms": 0.011,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "retrieve": {
+          "latency_ms": 32831.054,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "assemble": {
+          "latency_ms": 1926.819,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "generate": {
+          "latency_ms": 41.123,
+          "tokens": 93,
+          "cost": 0.0
+        }
+      },
+      "refused": false,
+      "cache_hit": true,
+      "citation_tenants": [
+        "A"
+      ],
+      "citation_ids": [
+        "ec1229bdf2d9913a0e8848f8",
+        "cc0a0220b2f4b3f8695f54dc",
+        "ac8f7390e1caa04ae1f123c8",
+        "dbbc437f80177d6a05fe5fc2"
+      ]
+    },
+    "second": {
+      "name": "cache_second",
+      "status_code": 200,
+      "latency_ms": 43401.94,
+      "trace_id": "797a6fe4d31d490c88487995eacfd3e5",
+      "trace": {
+        "input_guard": {
+          "latency_ms": 0.634,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "rewrite": {
+          "latency_ms": 0.011,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "retrieve": {
+          "latency_ms": 37967.081,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "assemble": {
+          "latency_ms": 1910.015,
+          "tokens": 0,
+          "cost": 0.0
+        },
+        "generate": {
+          "latency_ms": 115.062,
+          "tokens": 93,
+          "cost": 0.0
+        }
+      },
+      "refused": false,
+      "cache_hit": true,
+      "citation_tenants": [
+        "A"
+      ],
+      "citation_ids": [
+        "ec1229bdf2d9913a0e8848f8",
+        "cc0a0220b2f4b3f8695f54dc",
+        "ac8f7390e1caa04ae1f123c8",
+        "dbbc437f80177d6a05fe5fc2"
+      ]
+    },
+    "hit_confirmed": true
+  },
+  "storage": {
+    "redis_reachable": true,
+    "redis_cache_entries": 5,
+    "pgvector_rows": 5029,
+    "pgvector_distinct_chunk_ids": 5029
+  }
+}

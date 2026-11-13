@@ -1,0 +1,236 @@
+## A/auth_directions_2025.pdf tables=2 chars=12214
+The directions provide the broad principles which shall be complied with by all the  participants in the payment chain, while using a form of authentication.
+Short title  These directions shall be called Reserve Bank of India (Authentication mechanisms  for digital payment transactions) Directions, 2025  3.
+Effective Date  All Payment System Providers and Payment System Participants, including banks and  non-bank entities, shall ensure compliance with th ese directions by April 01, 2026 ,  unless indicated otherwise for any specific provision herein.
+These directions shall be applicable to all Payment System Providers and Payment  System Participants (banks and non-banks).
+Unless the context otherwise requires, the following terms shall bear the meanings  assigned to them as below:  a.
+Digital Payment Transaction shall have the same meaning as “Electronic  Funds Transfer” as defined in the PSS Act, 2007.
+Words and expressions used but not defined in these directions and defined in  the PSS Act, 2007 shall have the meanings assigned to them in that Act.
+Principles for authentication of digital payment transactions  The technology and process deployed for authenticating a payment instruction by the  Payment System Provider / Payment System Participant(s) shall comply with the  following principles:  a.
+
+## A/auth_press_2025.pdf tables=1 chars=1976
+These directions shall be complied with by April 01, 2026, unless indicated  otherwise for any particular direction.
+
+## A/emandate_2022.pdf tables=0 chars=2306
+For subsequent transactions with transaction values  up to ₹5,000/- (AFA limit), prescription of AFA was waived.
+On a review of implementation of the e-mandate framework and the protection available  to customers, it has been decided to increase the aforesaid AFA limit from ₹5,000/- to ₹15,000/-  per transaction.
+This circular is issued under Section 10 (2) read with Section 18 of the Payment and  Settlement Systems Act, 2007 (Act 51 of 2007), and shall come into effect immediately.
+
+## A/emandate_2023.pdf tables=0 chars=2032
+Thi s circular is issued under Section 10 (2) read with Section 18 of the Payment and Settlement Systems Act, 2007 (Act 51 of 2007), and shall come into effect immediately.
+
+## A/emandate_2024.pdf tables=0 chars=2864
+The e- mandate framework prescribed, inter alia, that the issuer shall send a pre-debit notification to the  customer at least 24 hours prior to the actual charge / debit to the account.
+All other instructions provided under the e-mandate framework shall continue to remain  applicable.
+This circular is issued under Section 18 read with Section 10 (2) of the Payment and  Settlement Systems Act, 2007 (Act 51 of 2007), and shall come into effect immediately.
+
+## A/emandate_framework_2026.pdf tables=1 chars=6878
+Short Title and Commencement  (a) These Directions shall be called t he “Digital Payments - E-mandate  Framework, 2026”.
+Applicability  The provisions of these Directions shall be applicable to all Payment System  Providers and Payment System Participants in respect of processing of recurring  transactions, domestic or cross-border, using cards / PPI / UPI.
+Registration and revocation of E-Mandate  (a) A customer desirous of opting for e-mandate facility shall undertake a one-time  registration process .
+The mandate shall be registered only after successful  validation of additional factor of authentication (AFA), in addition to the normal  process required by the issuer.
+(b) Every e-mandate registered by the issuer shall specify the validity period of the  e-mandate.
+The issuer shall provide the customer with a facility to modify the  validity period or withdraw the e-mandate at any point of time .
+Information  about this facility shall be clearly communicated to the customer at the time of  registration.
+In the case of variable e- mandates, the issuer shall provide the customer with a facility to specify the  maximum value of any recurring transaction.
+
+## A/emandate_press_2026.pdf tables=1 chars=841
+
+## A/pa_circular_2021.pdf tables=0 chars=10857
+In the case of bank PAs, there is no requirement of authorisation; they shall ensure  compliance with the guidelines by September 30, 2020 (as extended vide circular  DPSS.CO.PD.No.1897/02.14.003/2019-20 dated June 04, 2020 ).
+The circular is also applicable to e- commerce marketplaces that are undertaking direct  payment aggregation; e-commerce marketplaces availing the services of a PA shall be  considered as merchants.
+Newly incorporated non-bank entities which may not  have an audited statement of financial accounts shall submit a certificate from their CA  regarding the current net-worth along with provisional balance sheet.
+The Promoters / Promoter Groups, shall conform to the Reserve Bank’s ‘fit and proper’  criteria.
+Director of the PA company shall be deemed to be a “fit and proper” person if:  3.1.1.
+If any question arises as to whether a person is a fit and proper person, the RBI’s  decision on such question shall be final.
+Thus, to this extent,  para 6 on ‘Safeguards against Money Laundering (KYC / AML / CFT) Provisions’ shall  also be applicable.
+Entities functioning as OPGSP and undertaking cross -border transactions in terms of  OPGSP guidelines shall ensure compliance with the instructions issued vide A.P.
+
+## A/pa_guidelines_2020.pdf tables=10 chars=44346
+It may be noted that these guidelines are issued under Section 18 read with Section 10(2) of the Payment and Settlement Systems Act, 2007 and shall come into effect from April 1, 2020 other than for activities for which specific timelines are mentioned.
+PAs shall also adopt the technology- related  recommendations provided in Annex 2 .
+Domestic leg of import and export related payments facilitated by PAs shall also be governed  by these instructions.
+Non-bank PAs shall require authorisation from RBI under the Payment  and Settlement Systems Act, 2007 (PSSA).
+PA shall be a company incorporated in India under the Companies Act, 1956 / 2013.
+Existing non-bank entities offering PA services shall apply for authorisation on or before June  30, 2021.
+They shall be allowed to continue their operations till they receive communication from  RBI regarding the fate of their application.
+Entities seeking authorisation as PA from the RBI under the PSS Act, shall apply in Form A  to  the Department of Payment and Settlement Systems (DPSS), RBI, Central Office, Mumbai .
+
+## A/pa_md_2025.pdf tables=4 chars=44565
+These Directions shall be called the Reserve Bank of India (Regulation of  Payment Aggregators) Directions, 2025.
+These Directions shall be effective immediately unless indicated otherwise for  any specific provision herein.
+These Directions shall apply to all bank and non-bank entities undertaking the  business of Payment Aggregator (PA) as defined herein.
+These Directions shall  also apply to all Authorised Dealer banks as well as Scheduled Commercial  Banks which engage with entities undertaking PA business, to the extent  hereinafter specified.
+Explanation: For the purposes of this definition, the term ‘ digital & electronic  network’ shall include network of computers, television channels and any other  internet application used in automated manner such as web pages, extranets,  mobiles, etc.
+A non- bank entity shall seek authorisation for operating as a PA by submitting  an application through RBI’s online portal.
+An entity, regulated by any of the  financial sector regulator(s), shall apply along with a ‘No Objection Certificate’  (NOC) from such regulator(s), within 45 days of obtaining the NOC.
+A non-bank PA shall be a company incorporated in India under the  Companies Act, 2013.
+
+## A/pa_press_2025.pdf tables=2 chars=1907
+Permissible operations in escrow accounts;  These Directions shall come into effect immediately, unless indicated otherwise therein.
+
+## A/ppi_faq.pdf tables=0 chars=31125
+Yes, the cash loading of PPIs is limited to ₹50,000/- per month subject to overall limit of the PPI (not permitted in one type of Small PPI).
+Both types of Small PPIs are reloadable and shall be used only for purchase of goods and services.
+Their salient features are as follows: PPIs upto ₹10,000/- (with cash loading facility): a.
+The total amount loaded during the financial year shall not exceed ₹1,20,000/-; c.
+PPIs upto ₹10,000/- (with no cash loading facility): HomeAbout Us ▼Notifications ▼Press ReleasesSpeeches & Media Interactions ▼Publications ▼Legal Framework ▼Research ▼Statistics ▼Regulatory Reporting ▼  a.
+The total amount loaded during the financial year shall not exceed ₹1,20,000/-; c.
+Loading / Reloading shall be from a bank account / credit card / full-KYC PPI; and e.
+Within thisperiod of 24 months, it has to be converted into a full-KYC PPI failing which, no further credit in such PPI shall be allowed.
+
+## A/ppi_md_2017.pdf tables=13 chars=97123
+Existing PPI Issuers shall ensure compliance with the revised requirements on or before February 28, 2018, except where timelines have been specified in this Direction.
+1.2 Short title and commencement  a) These Directions shall be called the Reserve Bank of India ( Issuance and Operation  of Prepaid Payment Instruments) Directions, 2017 (Master Direction).
+c) Existing authorised Prepaid Payment Instrument (PPI) issuers shall ensure  compliance with the revised requirements on or before February 28, 2018, except  where timelines have been specified in this Direction.
+1.3 Applicability: The provisions of the Master Direction shall apply to all PPI Issuers, System  Providers and System Participants.
+All entities approved / authorised to operate payment systems involving the  issuance of PPIs shall comply with these Directions.
+Definitions    For the purpose of this Master Direction, the following definitions shall be applicable:    2.1 Issuer : Entities operating the payment systems issuing PPI s to individuals /  organisations.
+Banks issuing such PPIs shall also facilitate cash withdrawal at ATMs / Point of Sale (PoS) /  Business Correspondents (BCs).
+2.7 Limits: All ‘limits’ in the value of instruments stated in the Master Direction, indicate the  maximum value of such instruments, denominated in INR, that shall be issued to any holder,  unless otherwise specified.
+
+## A/ppi_md_2021.pdf tables=18 chars=98502
+1.2 Short title and commencement  a) These Directions shall be called the Reserve Bank of India Master Directions on  Prepaid Payment Instruments, 2021 (MD-PPIs, 2021); and  b) These Directions shall come into effect from the date they are placed on RBI website.
+However, in respect of instructions already issued, they shall be effective as per the  respective timelines prescribed.
+1.3 Applicability: The provisions of MD-PPIs shall apply to all Prepaid Payment Instrument  (PPI) Issuers and System Participants.
+Definitions    For the purpose of this MD, the following definitions shall be applicable:    2.1 Closed System PPIs : These PPIs are issued by an entity for facilitating the purchase of  goods and services from that entity only and do not permit cash withdrawal.
+2.5 Limits : All limits in the value of instruments stated in this MD, indicate the maximum  value of such instruments denominated in INR that shall be issued.
+While compulsorily  convertible preference shares reckoned for computation of net -worth can be either non- cumulative or cumulative, these shall be compulsorily convertible into equity shares and the  shareholder agreements shall specifically prohibit any withdrawal of this preference share  capital at any time.
+Banks issuing such PPIs shall also facilitate cash withdrawal at ATMs / Points of Sale  (PoS) devices / Business Correspondents (BCs).
+These PPIs shall be used for purchase of goods  and services, funds transfer or cash withdrawal.
+
+## A/tat_failed_txn_2019.pdf tables=2 chars=8030
+It may be noted that :    • the prescribed TAT is the outer limit for resolution of failed transactions;  and  • the banks and other operators / system participants shall endeavour  towards quicker resolution of such failed transactions.
+Wherever financial compensation is involved, the same shall be effected to the  customer’s account suo moto, without waiting for a complaint or claim from the  customer.
+This directive is issued under Section 10(2) read with Sect ion 18 of the  Payment and Settlement Systems Act, 2007 (Act 51 of 2007) and shall come into  effect from October 15, 2019.
+Failed  transactions shall also include the credits which could not be effected to the  beneficiary account on account of lack of full information or lack of proper  information and delay in initiating a reversal transaction.
+₹ 100/- per day of  delay beyond T + 5  days, to the credit of  the account holder.
+Transaction to be reversed (R)  latest within T + 1 day, if credit  is not effected to the  beneficiary account.
+If unable to credit to  beneficiary account, auto  reversal (R) by the Beneficiary  bank latest on T + 1 day.
+If unable to credit the  beneficiary account, auto  reversal (R) by the Beneficiary  bank latest on T + 1 day.
+
+## A/upi_credit_lines_2023.pdf tables=2 chars=1878
+
+## A/upi_oc185b_2025.pdf tables=0 chars=0
+
+## A/upi_ppi_tpap_2024.pdf tables=1 chars=3259
+PPI issuer as PSP  shall not on-board customers of any bank  or any other PPI issuer.
+Authentication shall be completed by  the PPI holder as per her / his existing  wallet credentials.
+A PPI issuer shall enable holders of  only its full- KYC PPI s to make UPI  payments by linking its customer PPIs to  its UPI handle.
+UPI transactions from PPI  on the issuer’s application shall be  authenticated using the customer’s  existing PPI credentials.
+A PPI  issuer, in its capacity as a PSP, shall not  on-board customers of any bank or any  other PPI issuer.
+A PPI issuer may also facilitate  discovery of its full-KYC PPIs on third - party UPI mobile applications, who, in turn  shall enable such PPIs to be linked to their  PSP handle/s.
+Such UPI transactions,  from PPIs using third party UPI  applications, shall be authenticated using  the UPI credentials.
+
+## B/cust_liability_2017.pdf tables=4 chars=15831
+The  SMS alerts shall mandatorily be sent to the customers, while email alerts may be  sent, wherever registered.
+Banks shall also  enable customers to instantly respond by "Reply" to the SMS and e- mail alerts and  the customers should not be required to search for a web page or an e- mail address  to notify the objection, if any.
+Further, a direct link for lodging the complaints, with  specific option to report unauthorised electronic transactions shall be provided by  banks on home page of their website.
+The loss/ fraud reporting system shall also  ensure that immediate response (including auto response) is sent to the customers  acknowledging the complaint along with the registered complaint number.
+A customer’s entitlement to zero liability shall arise where the unauthorised  transaction occurs in the following events:  (i) Contributory fraud/ negligence/ deficiency on the part of the bank  (irrespective of whether or not the transaction is reported by the  customer).
+Any  loss occurring after the reporting of the unauthorised transaction shall be  borne by the bank.
+Banks shall  provide the details of their policy in regard to customers’ liability formulated in  pursuance of these directions at the time of opening the accounts.
+On being notified by the customer, the bank shall credit (shadow reversal) the  amount involved in the unauthorised electronic transaction to the customer’s account  within 10 working days from the date of such notification by the customer (without  waiting for settlement of insurance claim, if any).
+
+## B/cyber_md_2024.pdf tables=15 chars=32755
+In case of any discrepancy in applicability of guidelines, the instructions provided in this Master  Direction shall prevail.
+These Master Directions shall be called the Reserve Bank of India ( Cyber Resilience  and Digital Payment Security Controls for non-bank PSOs) Master Directions, 2024 (Master  Directions, Directions).
+The Directions shall come into effect on the day they are placed on the official website  of the RBI.
+An organisational policy in this respect, approved by the Board , shall be put in  place.
+The Board of Directors (Board) of the PSO shall be responsible for ensuring adequate  oversight over information security risk s, including cyber risk and cyber resilience.
+However, primary oversight may be delegated to a sub -committee of the Board, headed  by a member with experience in information / cyber security, which shall meet at least  once every quarter.
+The PSO shall formulate a Board approved Information Security (IS) policy to manage  potential information security risks covering all applicat ions and products concerning  payment systems as well as management of risks that have materialised.
+The PSO shall prepare a distinct Board approved Cyber Crisis Management Plan (CCMP)  to detect, contain, respond and recover from cyber threats and cyber attacks.
+
+## B/cyber_md_2026.pdf tables=6 chars=57080
+In case of any discrepancy in  applicability of guidelines, the instructions provide d in this Master Direction shall  prevail.
+These Master Directions shall be called the Reserve Bank of India (Cyber  Resilience and Digital Payment Security Controls for non-bank PSOs) Master  Directions, 2026.
+The Directions shall come into effect on the day they are placed on the official  website of the RBI for Large1 and Medium 2 non-bank PSOs .
+For small non -bank  PSOs3, the directions shall come into effect from April 01, 2028.
+5    shall ensure adherence to these Directions by such unre gulated entities as well,  subject to mutual agreement.
+An organisational policy in this respect, approved by the  Board, shall be put in place.
+The Board of Directors (Board) of the PSO shall be r esponsible for ensuring  adequate oversight over information security risks, incl uding cyber risk and cyber  resilience.
+However, primary oversight may be delegate d to a sub -committee of the  Board, headed by a member with experience in inform ation / cyber security, which  shall meet at least once every quarter.
+
+## B/data_storage_2018.pdf tables=0 chars=2845
+All system providers shall ensure that the entire data relating to payment systems operated  by them are stored in a system only in India.
+System providers shall ensure compliance of (i) above within a period of six months and  report compliance of the same to the Reserve Bank latest by October 15, 2018.
+System providers shall submit the System Audit Report (SAR) on completion of the  requirement at (i) above.
+
+## B/data_storage_faq.pdf tables=0 chars=6173
+Where should the payment data be stored? The entire payment data shall be stored in systems located only in India, except in cases clarified herein.
+However, any subsequent activity such as settlement processing after payment processing, if done outside India, shall also beundertaken / performed on a near real time basis.
+
+## B/dpdp_act_2023.pdf tables=1 chars=63710
+Y shall accompany or precede the request for the personal data with notice to X, describing the personal data and the purpose of its processing.
+Upon commencement of the Act, Y shall, as soon as practicable, give through email, in-app notification or other effective method information to X, describing the personal data and the purpose of its processing.
+(3) The Data Fiduciary shall give the Data Principal the option to access the contents of the notice referred to in sub-sections (1) and (2) in English or any language specified in the Eighth Schedule to the Constitution.
+(1) The consent given by the Data Principal shall be free, specific, informed, unconditional and unambiguous with a clear affirmative action, and shall signify an agreement to the processing of her personal data for the specified purpose and be limited to such personal data as is necessary for such specified purpose.
+Since phone contact list is not necessary for making available telemedicine services, her consent shall be limited to the processing of her personal data for making available telemedicine services.
+(2) Any part of consent referred in sub-section (1) which constitutes an infringement of the provisions of this Act or the rules made thereunder or any other law for the time being in force shall be invalid to the extent of such infringement.
+Part ( ii) of the consent , relating to waiver of her right to file a complaint, shall be invalid.
+(4) Where consent given by the Data Principal is the basis of processing of personal data, such Data Principal shall have the right to withdraw her consent at any time, with the ease of doing so being comparable to the ease with which such consent was given.
+
+## B/dpdp_rules_2025.pdf tables=13 chars=120810
+(2) Rules 1, 2 and 17 to 21 shall come into force on the date of their publication in the Official Gazette.
+(3) Rule 4 shall come into force one year after the date of publication of this Gazette.
+(4) Rules 3, 5 to 16, 22 and 23 shall come into force eighteen months after the date of publication  of this Gazette.
+(2) The words and expressions used in these rules and not defined, but defined in the Act, shall have the  same meanings respectively assigned to them in the Act.
+(3) The Consent Manager shall have obligations as specified in Part B of First Schedule.
+— (1) Processing the personal data of a Data Principal under  this rule shall be done following the standards specified in Second Schedule.
+(2) In this rule, the expression “computer resource” shall have the same meaning as is assigned to it in  Information Technology Act, 2000 (21 of 2000).
+DF shall enable P to identify  herself through its website, app or other appropriate means.
+
+## B/kyc_md_2016.pdf tables=21 chars=236349
+(a) These Directions shall be called the Reserve Bank of India (Know Your  Customer (KYC)) Directions, 2016.
+(b) These directions shall come into effect on the day they are placed on the official  website of the Reserve Bank of India.
+Applicability  (a) 3The provisions of these Directions shall apply to every entity regulated by  Reserve Bank of India, more specifically as defined in 3 (b) (xiv) below, except  where specifically mentioned otherwise.
+(b) These directions shall also apply to those branches and majority owned  subsidiaries of the REs which are located abroad, to the extent they are not  contradictory to the local laws in the host country, provided that:  i.
+4where applicable laws and regulations prohibit implementation of these  guidelines, the same shall be brought to the notice of the Reserve Bank of  India.
+Provided that this rule shall not apply to ‘small accounts’ referred to in  paragraph 23 of Chapter VI.
+Withdrawn  5    In these Directions, unless the context otherwise requires, the terms herein shall  bear the meanings assigned to them below:  (a) Terms bearing meaning assigned in terms of Prevention of Money-Laundering  Act, 2002 and the Prevention of Money-Laundering (Maintenance of Records)  Rules, 2005:  i.
+5“Aadhaar number” shall have the meaning assigned to it in clause (a) of section  2 of the Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits  and Services) Act, 2016 (18 of 2016);  ii.
+
+## B/kyc_md_2025.pdf tables=3 chars=204047
+These Directions shall be called the Reserve Bank of India (Commercial Banks –  Know Your Customer) Directions, 2025.
+These directions shall come into effect on the day they are placed on the official  website of the RBI.
+These directions shall be applicable to Commercial Banks (hereinafter collectively  referred to as 'banks' and individually as a 'bank').
+(2) in case there is a variance in KYC / AML standards prescribed by the RBI and the  host country regulators, branches / subsidiaries of the bank shall adopt the more  stringent regulation of the two.
+Provided that this rule shall not apply to ‘small accounts’ referred to in paragraph 28 of  Chapter VI.
+Explanation: For the purpose of this sub-clause-  • ‘Controlling ownership interest’ means ownership of / entitlement to more than 10  percent of the shares or capital or profits of the company.
+• ‘Control’ shall include the right to appoint the majority of the directors or to control the  management or policy decisions including by virtue of their shareholding or  management rights or shareholders agreements or voting agreements.
+Explanation: For the purpose of this sub- clause, ‘control’ shall include the right to  control the management or policy decision.
+
+## B/kyc_psp_circular_2025.pdf tables=5 chars=8413
+In view of the above, all references to the said Master Direction in instructions to Payment  System Providers and Payment System Participants shall be read as reference to ‘Reserve Bank  of India (Commercial Banks – Know Your Customer) Directions, 2025’.
+PA shall maintain the  details of the agent assisting th e  merchant, where services of such  agents are employed.
+PA shall maintain  the details of the agent  assisting the merchant,  where services of such  agents are employed.
+The acquiring bank  shall carry out due  diligence of all ATOs  before onboarding  them, adopting the  same process as  indicated for individuals  in the ‘Reserve Bank of  India (Commercial  Banks – Know Your  Customer) Directions,  2025’ (as updated from  time to time), issued by  the Reserve Bank.
+Remitting banks / Business  Correspondents (BCs) shall register  the remitter based on a verified cell  phone number and a self-certified  ‘Officially Valid Document (OVD)’ as  per the Master Direction – Know Your  Customer Direction 2016 , as  amended from time to time.
+Remitting banks /  Business  Correspondents (BCs)  shall register the  remitter based on a  verified cell phone  number and a self- certified ‘Officially Valid  Document (OVD)’ as  per the ‘Reserve Bank  of India (Commercial  Banks – Know Your  Customer) Directions,  2025’, as amended  from time to time.
+
+## B/pmla_2002.pdf tables=0 chars=141048
+(2) Any reference, in this Act or the Schedule, to any enactment o r any provision thereof shall, in  relation to an area in which such enactment or such provision is not in force, be construed as a reference  to the corresponding law or the relevant provisions of the corresponding law, if any, in force in that area.
+(3) Every order of attachment made under sub-section (1) shall cease to have effect after the expiry of  the period specified in that sub -section or on the date of an order made under 3[sub-section ( 3)] of  section 8, whichever is earlier.
+(4) Nothing in this section shall prevent the person interested in the enjoyment of the immovable  property attached under sub-section (1) from such enjoyment.
+(5) The Director or any other officer who provisionally attaches any property under sub -section (1)  shall, within a period of thirty days from such attachment, file a complaint stating the facts of such  attachment before the Adjudicating Authority.
+Adjudicating Authori ties, composition, powers, etc .—(1) The Central Government shall, by  notification, appoint 4[an Adjudicating Authority] to exercise jurisdiction, powers and authority conferred  by or under this Act.
+(2) An Adjudicating Authority shall consist of a Chairperson and two other Members:    1.
+10    Provided that one Member each shall be a person having experien ce in the field of law,  administration, finance or accountancy.
+(4) The Central Government shall appoint a Member to be the Chairperson of the Adjudicating  Authority.
+
+## B/pss_act_2007.pdf tables=0 chars=59407
+(2) Words and expressions used, but not defined in this Act and defined in the Reserve Bank of India  Act, 1934 (2 of 1934) or the Banking Regulation Act, 1949 (10 of 1949), shall have the meanings  respectively assigned to them in those Acts.
+- (1) The Reserve Bank shall be the designated authority for the regulation  and supervision of payment systems under this Act.
+(2) The Reserve Bank shall exercise the powers, perform the functions and discharge the duties  conferred on it under this Act through a Board to be known as the “Payments Regulatory Board”.
+Designated authority and its Committee.—(1) The Reserve Bank shall be the designated authority for the regulation and  supervision of payment systems under this Act.
+of the equity of such company or corporation  shall be held by public sector banks.
+- For the purposes of this clause, “public sector banks” shall include a “corresponding  new bank”, “State Bank of India” and “subsidiary bank” as defined in section 5 of the Banking Regulation  Act, 1949 (10 of 1949).
+(2) An application under sub -section (1) shall be made in such form and in such manner and shall  be accompanied by such fees as may be prescribed.
+(3) Where the Reserve Bank consider s that the application for authorisation should be refused, it  shall give the applicant a written notice to that effect stating the reasons for the refusal:  Provided that no such application shall be refused unless the applicant is given a reasonable  opportunity of being heard.
+
+## B/pss_act_faq.pdf.pdf tables=0 chars=22289
+The Reserve Bank shall exercise the  powers, perform the functions and discharge the duties conferred on it under the PSS  Act, 2007 through a Board to be known as the “Payments Regulatory Board”.
+A sum of ₹10,000/ - (excluding applicable GST) is required to be submitted as  application fee, which can be submitted by cash or cheque or payment order or  demand draft or electronic fund transfer in favour of the Reserve Bank along with the  application for authorisation.
+The aggrieved applicant or aggrieved system provider can appeal to the Central  Government within 30 days from the date on which the order of refusal or revocation  is conveyed to him (Section 9 of PSS Act, 2007).
+Where any system partici pant is dissatisfied with the decision of  the panel, or where disputes arise between system participant and system provider or  between system providers, such disputes are required to be referred to the Reserve  Bank for adjudication, whose decision shall be final and binding on the parties.

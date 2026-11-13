@@ -1,0 +1,21 @@
+{
+  "configuration": "+ctx_headers +rerank top50->10",
+  "split": "test",
+  "questions": 36,
+  "recall@5": 0.75,
+  "recall@5_ci95": [
+    0.5893,
+    0.8625
+  ],
+  "recall@20": 0.7778,
+  "section_recall@5": 0.7778,
+  "doc_recall@5": 0.9722,
+  "span_recall@5": 0.75,
+  "mrr": 0.6655,
+  "by_category_recall@5": {
+    "factoid": 0.9286,
+    "multi_hop": 0.7778,
+    "table_lookup": 0.6667,
+    "version_sensitive": 0.4286
+  }
+}

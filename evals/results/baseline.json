@@ -1,0 +1,6 @@
+{
+  "recall@5": 0.7474,
+  "configuration": "+ctx_headers +rerank top50->10",
+  "split": "dev",
+  "n": 95
+}

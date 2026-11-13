@@ -1,0 +1,182 @@
+[
+  {
+    "configuration": "bm25:400:0",
+    "questions": 95,
+    "recall@5": 0.6632,
+    "recall@5_ci95": [
+      0.5634,
+      0.7502
+    ],
+    "recall@20": 0.7579,
+    "section_recall@5": 0.6632,
+    "doc_recall@5": 0.9158,
+    "span_recall@5": 0.6526,
+    "mrr": 0.5704,
+    "by_category_recall@5": {
+      "factoid": 0.7714,
+      "multi_hop": 0.5714,
+      "table_lookup": 0.8095,
+      "version_sensitive": 0.3889
+    }
+  },
+  {
+    "configuration": "dense:400:0",
+    "questions": 95,
+    "recall@5": 0.5053,
+    "recall@5_ci95": [
+      0.4065,
+      0.6036
+    ],
+    "recall@20": 0.5895,
+    "section_recall@5": 0.5053,
+    "doc_recall@5": 0.8105,
+    "span_recall@5": 0.5263,
+    "mrr": 0.3932,
+    "by_category_recall@5": {
+      "factoid": 0.6857,
+      "multi_hop": 0.1905,
+      "table_lookup": 0.619,
+      "version_sensitive": 0.3889
+    }
+  },
+  {
+    "configuration": "hybrid (baseline)",
+    "questions": 95,
+    "recall@5": 0.6211,
+    "recall@5_ci95": [
+      0.5206,
+      0.7121
+    ],
+    "recall@20": 0.6947,
+    "section_recall@5": 0.6211,
+    "doc_recall@5": 0.8947,
+    "span_recall@5": 0.6526,
+    "mrr": 0.4611,
+    "by_category_recall@5": {
+      "factoid": 0.8286,
+      "multi_hop": 0.381,
+      "table_lookup": 0.6667,
+      "version_sensitive": 0.4444
+    }
+  },
+  {
+    "configuration": "+identifier_boost",
+    "questions": 95,
+    "recall@5": 0.6526,
+    "recall@5_ci95": [
+      0.5526,
+      0.7408
+    ],
+    "recall@20": 0.7789,
+    "section_recall@5": 0.6526,
+    "doc_recall@5": 0.9474,
+    "span_recall@5": 0.6842,
+    "mrr": 0.5259,
+    "by_category_recall@5": {
+      "factoid": 0.8286,
+      "multi_hop": 0.4286,
+      "table_lookup": 0.7619,
+      "version_sensitive": 0.4444
+    }
+  },
+  {
+    "configuration": "hybrid +rerank top20->10",
+    "questions": 95,
+    "recall@5": 0.6,
+    "recall@5_ci95": [
+      0.4995,
+      0.6928
+    ],
+    "recall@20": 0.6316,
+    "section_recall@5": 0.6,
+    "doc_recall@5": 0.8842,
+    "span_recall@5": 0.6316,
+    "mrr": 0.4507,
+    "by_category_recall@5": {
+      "factoid": 0.8,
+      "multi_hop": 0.4286,
+      "table_lookup": 0.5714,
+      "version_sensitive": 0.4444
+    }
+  },
+  {
+    "configuration": "hybrid +rerank top50->10",
+    "questions": 95,
+    "recall@5": 0.5895,
+    "recall@5_ci95": [
+      0.489,
+      0.683
+    ],
+    "recall@20": 0.6211,
+    "section_recall@5": 0.5895,
+    "doc_recall@5": 0.9368,
+    "span_recall@5": 0.6316,
+    "mrr": 0.4393,
+    "by_category_recall@5": {
+      "factoid": 0.8286,
+      "multi_hop": 0.381,
+      "table_lookup": 0.6667,
+      "version_sensitive": 0.2778
+    }
+  },
+  {
+    "configuration": "+id_boost +rerank top50->10",
+    "questions": 95,
+    "recall@5": 0.6105,
+    "recall@5_ci95": [
+      0.51,
+      0.7025
+    ],
+    "recall@20": 0.6632,
+    "section_recall@5": 0.6105,
+    "doc_recall@5": 0.9579,
+    "span_recall@5": 0.6526,
+    "mrr": 0.4586,
+    "by_category_recall@5": {
+      "factoid": 0.8286,
+      "multi_hop": 0.4286,
+      "table_lookup": 0.7143,
+      "version_sensitive": 0.2778
+    }
+  },
+  {
+    "configuration": "+ctx_headers",
+    "questions": 95,
+    "recall@5": 0.6421,
+    "recall@5_ci95": [
+      0.5419,
+      0.7313
+    ],
+    "recall@20": 0.7263,
+    "section_recall@5": 0.6421,
+    "doc_recall@5": 0.9053,
+    "span_recall@5": 0.6316,
+    "mrr": 0.5122,
+    "by_category_recall@5": {
+      "factoid": 0.8571,
+      "multi_hop": 0.5238,
+      "table_lookup": 0.619,
+      "version_sensitive": 0.3889
+    }
+  },
+  {
+    "configuration": "+ctx_headers +rerank top50->10",
+    "questions": 95,
+    "recall@5": 0.7474,
+    "recall@5_ci95": [
+      0.6516,
+      0.824
+    ],
+    "recall@20": 0.7684,
+    "section_recall@5": 0.7474,
+    "doc_recall@5": 0.9789,
+    "span_recall@5": 0.7368,
+    "mrr": 0.6575,
+    "by_category_recall@5": {
+      "factoid": 0.9143,
+      "multi_hop": 0.619,
+      "table_lookup": 0.8095,
+      "version_sensitive": 0.5
+    }
+  }
+]

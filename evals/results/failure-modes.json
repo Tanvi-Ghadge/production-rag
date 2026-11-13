@@ -1,0 +1,26 @@
+{
+  "cases": 5,
+  "passed": 5,
+  "results": [
+    {
+      "name": "cohere_unavailable",
+      "passed": true
+    },
+    {
+      "name": "redis_unavailable",
+      "passed": true
+    },
+    {
+      "name": "pgvector_unavailable",
+      "passed": true
+    },
+    {
+      "name": "reranker_unavailable",
+      "passed": true
+    },
+    {
+      "name": "malformed_provider_response",
+      "passed": true
+    }
+  ]
+}

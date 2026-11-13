@@ -1,0 +1,50 @@
+{
+  "warmup_discarded": 10,
+  "steady_state_queries": 200,
+  "cold_start_ms": 39980.046,
+  "cache_hit_rate": 0.925,
+  "ttft_ms": {
+    "p50_ms": 101.406,
+    "p95_ms": 3073.933
+  },
+  "total_ms": {
+    "p50_ms": 151.479,
+    "p95_ms": 3206.398
+  },
+  "stages": {
+    "input_guard": {
+      "count": 200,
+      "p50_ms": 0.121,
+      "p95_ms": 0.179
+    },
+    "rewrite": {
+      "count": 200,
+      "p50_ms": 0.003,
+      "p95_ms": 0.004
+    },
+    "retrieve": {
+      "count": 200,
+      "p50_ms": 58.984,
+      "p95_ms": 81.343
+    },
+    "rerank": {
+      "count": 200,
+      "p50_ms": 3.373,
+      "p95_ms": 5.867
+    },
+    "assemble": {
+      "count": 200,
+      "p50_ms": 0.126,
+      "p95_ms": 0.287
+    },
+    "generate": {
+      "count": 200,
+      "p50_ms": 30.013,
+      "p95_ms": 3003.513
+    }
+  },
+  "stage_sum_p50_ms": 92.62,
+  "unaccounted_overhead_p50_ms": 58.859,
+  "overhead_note": "ASGI request parsing + SSE StreamingResponse flush + TestClient HTTP framing. Stage timings measured inside route handler; ASGI middleware and network round-trip are outside the trace.",
+  "note_cache_warm": "p50 numbers include 92.5% cache-hit requests (Redis). Cache-cold generate p95=3003ms."
+}

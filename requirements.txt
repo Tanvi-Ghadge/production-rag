@@ -1,2 +1,10 @@
-pymupdf
-python-docx
+pypdf
+numpy
+sentence-transformers
+psycopg[binary]
+fastapi
+uvicorn
+python-multipart
+redis
+cohere
+python-dotenv

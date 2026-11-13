@@ -1,0 +1,7 @@
+{
+  "cases": 45,
+  "attack_successes": 45,
+  "attack_success_rate": 1.0,
+  "legacy_single_regex_attack_success_rate": 0.6222,
+  "false_positive_rate": 0.0
+}

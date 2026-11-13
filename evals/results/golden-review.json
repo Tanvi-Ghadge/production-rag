@@ -1,0 +1,10 @@
+{
+  "records": 120,
+  "missing_source_ids": 0,
+  "grounded_reference_answers": 90,
+  "bad_category_flags": 0,
+  "version_pairs_with_two_documents": 15,
+  "automated_grounding_pass": true,
+  "human_review_required": 0,
+  "calibration_labels_complete": true
+}

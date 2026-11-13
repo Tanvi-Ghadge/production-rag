@@ -1,0 +1,4828 @@
+{
+  "questions": 120,
+  "faithfulness": 0.9833,
+  "correctness": 0.5226,
+  "failure_taxonomy": {
+    "none": 60,
+    "incorrect": 58,
+    "ungrounded": 2
+  },
+  "evaluation_version": "grounded-context-v8-rerank-stage-trace",
+  "schema_valid": true,
+  "refusal_accuracy": 1.0,
+  "citation_accuracy": 0.6417,
+  "results": [
+    {
+      "id": "g001",
+      "status_code": 200,
+      "latency_ms": 87368.66,
+      "trace_id": "325bbb177d894bd39563ff6bf8d5d6f7",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.6897,
+      "failure": "none",
+      "judge": "llm",
+      "answer": "PPI issuers shall put in place a formal, publicly disclosed customer grievance redressal framework, including designating a nodal officer to handle the customer complaints /grievances, the escalation matrix and turn-around-time for complaint resolution. safety and security concerns, and for risk mitigation and fraud prevention: a) In case of wallets, PPI issuers shall ensure that if same login is provided for the PPI and other services offered by the PPI Issuer, then the same shall be clearly informed to the customer by SMS or email or post or by any other means. f) Issuers shall put in place a limit on the number of beneficiaries that may be added in a day per PPI.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "8174b09ca059332b15dd80a8",
+          "document_id": "A:ppi_md_2017",
+          "page": 20,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "7ab9ab775feb672c8c9ee1d0",
+          "document_id": "A:ppi_faq",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "6787dee5544b63efddd041ff",
+          "document_id": "A:ppi_md_2017",
+          "page": 18,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "3c36dc59be14254681a2bc67",
+          "document_id": "A:ppi_md_2017",
+          "page": 19,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "42b8ef02921510e9835019ef",
+          "document_id": "A:ppi_md_2017",
+          "page": 6,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g002",
+      "status_code": 200,
+      "latency_ms": 6320.293,
+      "trace_id": "1bd53b61a7bd40dba1949258621da488",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.1544,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "Burden of proof.—In any proceeding relating to proceeds of crime under this Act,— (a) in the case of a person charged with the offence of money-laundering under section 3, the Authority or Court shall, unless the contrary is proved, presume that such proceeds of crime are involved in money-laundering; and (b) in the case of any other person the Authority or Court, may presume that such proce eds of crime are involved in money-laundering.] 9 section, has reason to believe (the reason for such belief to be recorded in writing), on the basis of material in his possession, that— (a) any person is in possession of any proceeds of crime; and (b) such proceeds of crime are likely to be concealed, transferred or dealt with in any manner which may result in frustrating any proceedings relating to confiscation of such proceeds of crime under this Chapter, he may, by order in writing, provisionally att ach such property for a period not exceeding one hundred and eighty days from the date of the order, in such manner as may be prescribed: Provided that no such order of attachment shall be made unless, in relation to the scheduled offence, a report has bee n forwarded to a Magistrate under section 173 of the Code of Criminal Procedure, 1973 (2 of 1974), or a complaint has been filed by a person authorised to investigate the offence mentioned in that Schedule, before a Magistrate or court for taking cognizance of the scheduled offence, as the case may be, or a similar report or complaint has been made or filed under the corresponding law of any other country: Provided further that, notwithstanding anything contained in 1[first proviso] , any property of any person may be attached under this section if the Director or any other officer not below the rank of Deputy Director authorised by him for the purposes of this section has reason to believe (the reasons for such belief to be recorded in writing), on the basis of material in his possession, that if such property involved in money-laundering is not attached immediately under this Chapter, the non -attachment of the property is likely to frustrate any proceeding under this Act:] 2[Provided also that for the purposes of computing the period of one hundred and eighty days, the period during which the proceedings under this section is stayed by the High Court, shall be excluded and a further period not exceeding thirty days from the date of order of vacation of such stay order shall be counted.]; (2) The Director, or any other officer not below the rank of Deputy Director, shall, immediately after attachment under sub-section (1), forward a copy of the order, along with the material in his possession, referred to in that sub-section, to the Adjudicating Authority, in a sealed envelope, in the manner as may be prescribed and such Adjudicating Authority shall keep such order and material for such period as may be prescribed. be punishable with rigorous imprisonment for a term which shall not be less than three years but which may extend to seven years and shall also be liable to fine 3***: Provided that where the proceeds of crime involved in money -laundering relates to any offence specified under paragraph 2 of Part A of the Schedule, the provisions of this section shall have effect as if for the words “which may extend to seven years ”, the words “which may extend to ten years ” had been substituted.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "8d63619c67566b9f9852f25e",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 7,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "b4d4e1b575078ff6bf9c62d1",
+          "document_id": "B:pmla_2002",
+          "page": 24,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "ab93466c62f8c239f61cfd89",
+          "document_id": "B:pmla_2002",
+          "page": 21,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "869812b11d3021ae8bb077b3",
+          "document_id": "B:kyc_md_2016",
+          "page": 65,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "fe42de2b9955f4188c00cb27",
+          "document_id": "B:pmla_2002",
+          "page": 9,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "2a0f6fd87d8a31ad642c4b33",
+          "document_id": "B:pmla_2002",
+          "page": 8,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g003",
+      "status_code": 200,
+      "latency_ms": 3839.938,
+      "trace_id": "f449edd8d1e04956a9393875e444457f",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.1731,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "These directions shall be called Reserve Bank of India (Authentication mechanisms for digital payment transactions) Directions, 2025 (a) The terms ‘authentication’, ’factor of authentication ’, ‘issuer’, ‘merchant’ will have the same meaning as defined in Reserve Bank of India (Authentication mechanisms for digital payment transactions) Directions, 2025 dated September 25, 2025 and Master Direction on Regulation of Payment Aggregator (PA) dated September 15, 2025. As announced in Statement on Developmental and Regulatory Policies dated February 08, 2024, in order to enable the payments ecosystem to leverage the technological advancements for implementing alternative authentication mechanisms, it has been decided to publish Reserve Bank of India (Authentication m echanisms for d igital payment transactions) Directions, 2025 (hereinafter referred to as “ Directions”).",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "6a6ac2168969954f31bf17be",
+          "document_id": "A:auth_directions_2025",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "22794329099a644c01ffa14a",
+          "document_id": "A:emandate_framework_2026",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "c1935753f90ced25deba36af",
+          "document_id": "A:auth_directions_2025",
+          "page": 8,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "8d04ddc92928eb48d65e16e4",
+          "document_id": "A:auth_directions_2025",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "21babd220b4f01ffeb1ff9f1",
+          "document_id": "A:auth_directions_2025",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g004",
+      "status_code": 200,
+      "latency_ms": 8905.531,
+      "trace_id": "1e863a3c9a4b4f6eb77418e130d6b26e",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.5161,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "The application for authorization has to be made as per Form A under Regulation 3(2) of the Payment and Settlement Systems Regulations, 2008. application for authorization is refused or a system provider whose authorization is revoked, can appeal? The form and manner of application for authorisation is available at https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/PSSR23022022D57D6E9AFAF4",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "4816f4e61f2a0a726353ee37",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 5,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "e4a0eef7fb1376ea2b7320b8",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 5,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "37792ba932b5ea7f3fa7768a",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 5,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "99426500da38005e66d46a78",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 3,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "db57c425efa672a2e5b281c7",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 3,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g005",
+      "status_code": 200,
+      "latency_ms": 2688.215,
+      "trace_id": "b2bde51aced6498db1ea53abf7176950",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.7143,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "96 Category Eligible Foreign Investors is not in vogue, may submit ‘Power of Attorney granted to Global Custodian/Local Custodian in lieu of Board Resolution’ Category Eligible Foreign Investors Accounts of FPIs which are eligible/ registered as per SEBI guidelines, for the purpose of investment under Portfolio Investment Scheme (PIS), shall be opened by accepting KYC documents as detailed in Annex IV , subject to Income Tax (FATCA/CRS) Rules.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "b19eb569aed75128c59fa706",
+          "document_id": "B:kyc_md_2016",
+          "page": 96,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "216bedb359c8e5cb7f170da1",
+          "document_id": "B:kyc_md_2025",
+          "page": 18,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "d931301fd707ddcab4577b0f",
+          "document_id": "B:kyc_md_2025",
+          "page": 51,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "a293a56d5453d85cd33a6201",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 2,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "511c8774703213f3fd742ded",
+          "document_id": "B:kyc_md_2016",
+          "page": 48,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g006",
+      "status_code": 200,
+      "latency_ms": 2954.177,
+      "trace_id": "a058978e8cec4975826535badf940c3a",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.2734,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "sub-section (1) of section 63 except with the previous sanction of the Central Government. (2) Where a Special Court, in relation to an offence punishable under section 4 has rec eived for service or execution— (a) a summons to an accused person, or (b) a warrant for the arrest of an accused person, or (c) a summons to any person requiring him to attend and produce a document or other thing, or to produce it, or (d) a search warrant, issued by a Court, Judge or Magistrate in a contracting State, it shall, cause the same to be served or executed as if it were a summons or warrant received by it from another Court in the said territories for service or execution within its local jurisdiction; and where— (i) a warrant of arrest has been executed, the person arrested shall be dealt with in accordance with the procedure specified under section 19; (ii) a search warrant has been executed, the things found in this search shall, so far as possible, be dealt with in accordance with the procedure specified under sections 17 and 18: Provided that in a case where a summon or search warrant received from a contracting State has been executed, the documents or other things pro duced or things found in the search shall be forwarded to the Court issuing the summons or search-warrant through such authority as the Central Government may, by notification, specify in this behalf. (4) Where the person transferred to India pursuant to sub -section ( 1) is a prisoner in a contr acting State, the Special Court in India shall ensure that the conditions subject to which the prisoner is transferred to India a re complied with and such prisoner shall be kept in such custody subject to such conditions as the Central Government may direct in writing.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "66add23235d1dcd854562328",
+          "document_id": "B:pmla_2002",
+          "page": 32,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "495632fdda94ce98e3166256",
+          "document_id": "B:pmla_2002",
+          "page": 30,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "12af12309057365ecd147546",
+          "document_id": "B:pss_act_2007",
+          "page": 8,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "58608bde260c3073fbcc2fc7",
+          "document_id": "B:pmla_2002",
+          "page": 27,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "acd769daa0a69f98eb766585",
+          "document_id": "B:pmla_2002",
+          "page": 16,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "6b55a6805c57522b0f590d21",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 6,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g007",
+      "status_code": 200,
+      "latency_ms": 2689.599,
+      "trace_id": "65c7ebaa3436426e885ad52377ccf70c",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.1389,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "customer or beneficial owner) provided that, apart from performing normal customer due diligence: (a) REs have in place appropriate risk management systems to determine whether the customer or the beneficial owner is a PEP; (b) Reasonable measures are taken by the REs for establishing the source of funds / wealth; (c) the approval to open an account for a PEP shall be obtained from the senior management ; (d) all s uch accounts are subjected to enhanced monitoring on an on- going basis; (e) in the event of an existing customer or the beneficial owner of an existing account subsequently becoming a PEP, senior management’s approval is obtained to continue the business relationship; (vii) ‘Designated Director’ means a person whom the bank designates to ensure overall compliance with the obligations imposed under chapter IV of the PML Act and the Rules and shall include the Managing Director or a whole- time Director, whom the Board of Directors has duly authorised. Explanation: For the purpose of this clause, the terms ‘ Managing Director’ and ‘Whole-time Director’ shall have the meaning assigned to them in the Companies Act,",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "0273f226a53b9e3a98381a80",
+          "document_id": "B:kyc_md_2016",
+          "page": 46,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "ad54b73a93f47fef346faea1",
+          "document_id": "B:kyc_md_2025",
+          "page": 7,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "081b02f1f0d47c758e3b6536",
+          "document_id": "B:kyc_md_2016",
+          "page": 36,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "12df99b7161dd2a507f5f25d",
+          "document_id": "B:kyc_md_2025",
+          "page": 47,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "bf2cec54edff95c1bda345af",
+          "document_id": "B:kyc_md_2016",
+          "page": 7,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g008",
+      "status_code": 200,
+      "latency_ms": 2826.025,
+      "trace_id": "9dd339c1a1e14ac2861cb0a8f563ddff",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.2188,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "PPI issuers are, however, free to issue PPIs with a longer validity.Issuers shall clearly indicate the expiry period of the PPI to the customer at the time of issuance of PPIs. All PPIs shall have a minimum validity period of one year from the date of last loading / reloading in the PPI. entities who have approval / authorisation from the RBI to issue PPIs as well as those who are proposing to issue PPIs.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "12df2cabc14d546bcaaf611d",
+          "document_id": "A:ppi_faq",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "c22c00ae20a603cdf8643e1b",
+          "document_id": "A:ppi_md_2017",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "153cb285a43de5e12ba67d58",
+          "document_id": "A:ppi_md_2021",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "22c48f808d922ddcf9314057",
+          "document_id": "A:ppi_faq",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "9eb7ebad5bfd0ed230d3c6df",
+          "document_id": "A:ppi_faq",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g009",
+      "status_code": 200,
+      "latency_ms": 2431.827,
+      "trace_id": "e14e942a136d4ca1be32759fa6f20779",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.6667,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "Any other debit as directed by the regulator / courts / law enforcement agencies. for any reason the scheme is being wound-up or is directed by RBI to be discontinued. for any reason the scheme is being wound-up or is directed by RBI to be discontinued.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "c91682fe028b9b46d0c749da",
+          "document_id": "A:ppi_md_2021",
+          "page": 19,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "4aa0f09663293a10185c7822",
+          "document_id": "A:ppi_md_2017",
+          "page": 18,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "2056c90e4bd89c629ef8aac8",
+          "document_id": "A:emandate_2024",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "bf02b694f9097ab3bd628e6e",
+          "document_id": "A:ppi_faq",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "de632e62ccab4d70ccbf66b9",
+          "document_id": "A:ppi_md_2017",
+          "page": 16,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g010",
+      "status_code": 200,
+      "latency_ms": 1720.432,
+      "trace_id": "958c037a576e4dbea7394c9f048b46ae",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.1714,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "PA shall put in place a Board approved Information Security Policy for safety and security of the payment systems operated by it and implement security measures in accordance with the said policy to mitigate identified as well as emerging risks. PA shall put in place adequate Information and D ata Security infrastructure and systems for detection and prevention of frauds. Reports on risk assessment, security compliance posture, security audit reports and security incidents shall be presented to the Board.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "e17daf5d31b1c12a41fd167b",
+          "document_id": "A:ppi_md_2021",
+          "page": 19,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "f5e16f6a805ba4937e3e8d7d",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 12,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "b9985de707b011100c8548d9",
+          "document_id": "A:pa_md_2025",
+          "page": 9,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "7177ec23f606eaba86f70379",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 11,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "f375f8e9b05bac5eb54c2df7",
+          "document_id": "A:pa_md_2025",
+          "page": 22,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g011",
+      "status_code": 200,
+      "latency_ms": 3228.717,
+      "trace_id": "07957355386b469cb8ec76c47e30b273",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "failure": "none",
+      "judge": "llm",
+      "answer": "In a ny case, the bank shall not use the mobile number of authori sed officer registered with the bank for the customer signature. (2) As a risk-mitigating measure for such accounts, the bank shall ensure that it sends transaction alerts, OTP, etc., only to the mobile number of the customer registered with Aadhaar. 29 mobile number registered with the bank.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "949ed7c1ec726e03f3e1316c",
+          "document_id": "B:kyc_md_2025",
+          "page": 28,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "fa86d0bc111f6a4fbc8e19bd",
+          "document_id": "B:kyc_md_2016",
+          "page": 72,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "e0f7906942d3777a6c79b5e4",
+          "document_id": "B:kyc_md_2025",
+          "page": 29,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "75e5cf1aa06f8158ced047ab",
+          "document_id": "B:kyc_md_2025",
+          "page": 29,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "e1586562c19b1eab127fec07",
+          "document_id": "B:kyc_md_2025",
+          "page": 41,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g012",
+      "status_code": 200,
+      "latency_ms": 2550.537,
+      "trace_id": "10107a9ddb2e4915b8779a1fbcdbdd36",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.2424,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "surplus pre-funding is not allowed. They shall, however, be allowed to store limited data for the purpose of transaction tracking; for which, the required limited information may be stored in compliance with the applicable standards. Yes, funds transfer is allowed from a ‘Full-KYC’ PPI within a limit of ₹10,000/- per month per holder.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "ee153e26af57e288b3af59d1",
+          "document_id": "A:pa_circular_2021",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a768e755f136272d7c790ca8",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 7,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "9943e325a7bcfe47f5bf154f",
+          "document_id": "A:emandate_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "7cc157fd29b339792698ba79",
+          "document_id": "A:pa_circular_2021",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "ef8ca686097906ec9b831ea7",
+          "document_id": "A:ppi_faq",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "7605ae043124cb1cbe84be12",
+          "document_id": "A:ppi_faq",
+          "page": 4,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g013",
+      "status_code": 200,
+      "latency_ms": 8694.514,
+      "trace_id": "1da1e703bdea46e0b1b807e5f6cfcd43",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.2651,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "In case the non -bank PPI issuer is unable to resolve the complaint or determine the customer liability, if any, within 90 days, the amount as prescribed in paragraph 16.4.6 shall be paid to the customer, irrespective of whether the negligence is on the part of customer or otherwise. transactions shall lie on the non-bank PPI issuer. Particulars Maximum Liability of Customer (a) Contributory fraud / negligence / deficiency on the part of the non-bank PPI issuer, including PPI -MTS issuer (irrespective of whether or not the transaction is reported by the customer) Zero (b) Third party breach where the deficiency lies neither with the non-bank PPI issuer nor with the customer but lies elsewhere in the system, and the customer notifies the non- bank PPI issuer regarding the unauthorised payment transaction.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "bbdfa198cd13cae81345cdb6",
+          "document_id": "A:ppi_md_2017",
+          "page": 23,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "ecdee18ea5d3f5225266b727",
+          "document_id": "A:ppi_md_2021",
+          "page": 24,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "228f72cf8b589b3399ee40eb",
+          "document_id": "A:ppi_md_2017",
+          "page": 22,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "5216391357d363c6b117bc7a",
+          "document_id": "A:ppi_faq",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "2424f4aa46fd917a80f35237",
+          "document_id": "A:ppi_md_2017",
+          "page": 23,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g014",
+      "status_code": 200,
+      "latency_ms": 2359.497,
+      "trace_id": "72b9214b2b9a41b2a3968ca64154fc78",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.0,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "8. Risk based approach ................................................................................................",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "035c02c25d55e28a67595fc5",
+          "document_id": "A:auth_directions_2025",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "4d259a40802718bf9cfb2e01",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 6,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "7c51d75aed83abc3e3ac2261",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 6,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "d2f50365f2119a639a2b60e4",
+          "document_id": "A:ppi_md_2021",
+          "page": 37,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "84d6aa420c2f58549a459e06",
+          "document_id": "A:ppi_md_2017",
+          "page": 36,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g015",
+      "status_code": 200,
+      "latency_ms": 5912.847,
+      "trace_id": "cfa88b426d844340ac1b71ab15e162ef",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.2769,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "s circular is issued under Section 10 (2) read with Section 18 of the Payment and Settlement Systems Act, 2007 (Act 51 of 2007), and shall come into effect immediately. rationalise the regulations, this comprehensive Master Direction is issued under Section 18 read with Section 10 (2) of the Payment and Settlement Systems Act, 2007, and Section 10 (4) and Section 11 (1) of the Foreign Exchange Management Act (FEMA), 1999 for regulation of various categories of PA. he Master Direction , issued under Section 18 read with Section 10(2) of the Payment and Settlement Systems Act, 2007, replaces all circulars listed in Table- 1 of Annex -1 and partially replaces all circulars mentioned in Table-2 of Annex-1 issued till date on the subject.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "9efd1570e038eabaf5757525",
+          "document_id": "A:emandate_2023",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "d7bf7456cfbc7823047a6add",
+          "document_id": "A:ppi_md_2017",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "bf5129555acb4b110e98ef33",
+          "document_id": "A:pa_md_2025",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "8fd01a01da1e1affedeee66a",
+          "document_id": "A:ppi_faq",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a4b4bcb9935169043961a05f",
+          "document_id": "A:tat_failed_txn_2019",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g016",
+      "status_code": 200,
+      "latency_ms": 10167.869,
+      "trace_id": "4a77f3fe5f8d451486b2807179c398ad",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.5312,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "This shall be reported to RBI, along with CA certificate in the enclosed format ( Annex-2 ) and audited Balance Sheet, by September 30, 2020 failing which the entity may not be permitted to carry out this business. accounts shall submit a certificate in the enclosed format ( Annex-2) from their CA regarding the current net-worth along with provisional balance sheet. financial accounts shall submit a certificate in the enclosed format ( Annex-2) from their Chartered Accountants regarding the current net-worth along with provisional balance sheet.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "9d0cea87952685414da1c3c5",
+          "document_id": "A:ppi_md_2021",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "7423db67f691d3624bbf890c",
+          "document_id": "A:ppi_md_2017",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "bf02b694f9097ab3bd628e6e",
+          "document_id": "A:ppi_faq",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "147b6670cf47636d84c1f13e",
+          "document_id": "A:ppi_md_2017",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "e032cc7086ec65df3e1efa90",
+          "document_id": "A:ppi_md_2021",
+          "page": 16,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "c4bff33b768f58a9ea2e15a4",
+          "document_id": "A:pa_circular_2021",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g017",
+      "status_code": 200,
+      "latency_ms": 2403.095,
+      "trace_id": "028975f6adbd4d85a5f8a3614b0e3597",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.1389,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "The bank shall ensure that payments are made only to eligible merchants / purposes. There shall be an exclusive clause in the agreement signed between the PA and the bank maintaining escrow account towards usage of balance in escrow account only for the purposes mentioned above. They shall submit a certificate in the enclosed format (Annex-2) from their Chartered Accountants (CA) to evidence compliance with the applicable net-worth requirement while submitting the application for authorisation.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "c4bf688c3315464dd4e1aa4a",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 8,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "14648be966b5024f0906587e",
+          "document_id": "A:ppi_md_2021",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "3ec8431de40d248ad4099b4c",
+          "document_id": "A:ppi_faq",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "01485939dcd866d9397086ac",
+          "document_id": "A:pa_circular_2021",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "0b74e378b2726aaf658acd10",
+          "document_id": "A:pa_circular_2021",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g018",
+      "status_code": 200,
+      "latency_ms": 2353.623,
+      "trace_id": "f41f09f81dba479c8ed11f93ebb01447",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.8333,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "21 xvi.Secure Mail and Messaging systems - Assessment of controls in place to ensure that the entity's inbound and outbound traffi c in the form of mail, messages or any other media are secure. (g) The PSO shall employ secure mail and messaging systems to ensure that inbound and outbound traffic through mail, messages or any other media are secure. (g) The PSO shall employ secure mail and messaging system s to ensure that inbound and outbound traffic through mail, messages or any other media are secure.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "76fdc9ce51d6cf26766139e3",
+          "document_id": "B:cyber_md_2026",
+          "page": 24,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "284ae54787e07e49395c519f",
+          "document_id": "B:cust_liability_2017",
+          "page": 2,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "c05a96a5cc08c50b5c8d84f0",
+          "document_id": "B:cyber_md_2026",
+          "page": 21,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "f45738c80c3bd1a9e6f1707b",
+          "document_id": "B:cyber_md_2024",
+          "page": 12,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "5792d742eaa59a51cc3e1c7e",
+          "document_id": "B:cyber_md_2026",
+          "page": 14,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g019",
+      "status_code": 200,
+      "latency_ms": 1932.669,
+      "trace_id": "76b52cd274db4e51ad5d41a62ded7f9a",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.9565,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "regard to items I to IV and other information considered relevant for judging fit and proper status of the Director Undertaking regard to items I to IV and other information considered relevant for judging fit and proper status of the Director Undertaking to items I to IV and other information considered relevant for judging fit and proper status of the Director ?",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "36b789aff85e18f2377390b2",
+          "document_id": "A:ppi_md_2021",
+          "page": 33,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "4779687171ca43803afa96bc",
+          "document_id": "A:ppi_md_2017",
+          "page": 31,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "69813268c0bf56751fcb7b0c",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 21,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "90e9a1ef0d10a70926b61e0e",
+          "document_id": "A:ppi_md_2017",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "e0190cbe4bd4ac5e0fde1abb",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 20,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g020",
+      "status_code": 200,
+      "latency_ms": 2614.378,
+      "trace_id": "0873a3769a0145de9b74ce602226ccbe",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.5106,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "25A Contravention of orders made under section 9A of the Narcotic Drugs and Psychotropic Substances Act, 1985. of the Narcotic Drugs and Psychotropic Substances Act, 1985. empowered and required to assist the authorities in the enforcement of this Act, namely:— (a) officers of the Customs and Central Excise Departments; (b) officers appointed under sub -section ( 1) of section 5 of the Narcotic Drugs and Psychotropic Substances Act, 1985 (61 of 1985); (c) income-tax authorities under sub-section (1) of section 117 of the Income-tax Act, 1961 (43 of",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "89ba3451e7664b78e0197dc0",
+          "document_id": "B:pmla_2002",
+          "page": 39,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "fd71a6871889da9afd868e53",
+          "document_id": "B:pmla_2002",
+          "page": 40,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "37d79c2a7272ef70997c9978",
+          "document_id": "B:pmla_2002",
+          "page": 39,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "12419c86f5c8c6806ab9c5cf",
+          "document_id": "B:pmla_2002",
+          "page": 27,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "92c384e41571eec1910632f8",
+          "document_id": "B:pmla_2002",
+          "page": 41,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g021",
+      "status_code": 200,
+      "latency_ms": 4601.939,
+      "trace_id": "ccd7030d082644738f9d7b2c314ce6fe",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.2651,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "(a) the interoperable platform of the applicant to enable the Data Principal to give, manage, review and withdraw her consent is consistent with such data protection standards and assurance framework as may be published by the Board on its website from time to time; and (b) appropriate technical and organisational measures are in place to ensure adherence to such standards and framework and effective observance of the obligations under item 11 of Part B. (3) The Consent Manager shall have obligations as specified in Part B of First Schedule. registration of Consent Managers set out in Part A of First Schedule may apply to the Board for registration as a Consent Manager by furnishing such particulars and such other information and documents as the Board may publish in this behalf on its website.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "ea149e11366e455f061c1c96",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 32,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "14942ec8a1677371e43e735e",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 25,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "c6efa81207665b98d8dfb174",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 34,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "7288bd009534174351a86f8a",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 33,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "7beca9891666507a53b81444",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 33,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g022",
+      "status_code": 200,
+      "latency_ms": 3158.605,
+      "trace_id": "8c710f4f589e4a77bfeeed0ccffb33b4",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.2609,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "this Act, namely:— (a) Director or Additional Director or Joint Director, (b) Deputy Director, (c) Assistant Director, and (d) such other class of officers as may be appointed for the purposes of this Act. officer not below the rank of Deputy Director authorised by the Director for the purposes of this 33 (i) any officer, authority or body performing any functions under any law relating to imposition of any tax, duty or cess or to dealings in foreign exchange, or prevention of illicit traffic in the narcotic drugs and psychotropic substances under the Narc otic Drugs and Psychotropic Substances Act, 1985 (61 of 1985); or (ii) such other officer, authority or body performing fu nctions under any other law as the Central Government may, if in its opinion it is necessary so to do in the public interest, specify, by notification in the Official Gazette, in this beha lf, any inf ormation received or obtained by such Director or any other authority, specified by him in the performance of their functions under this Act, as may, in the opinion of the Director or the other authority, so specified by him, be necessary for the purpose of the officer, authority or body specified in clause ( i) or clause ( ii) to perform his or its functions under that law.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "ee6b65d4ceb12884dd6d82fa",
+          "document_id": "B:kyc_md_2025",
+          "page": 19,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "c2c744ddd155887cf461df01",
+          "document_id": "B:pmla_2002",
+          "page": 8,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "c909c9e97fb5c18c95fb35ee",
+          "document_id": "B:pmla_2002",
+          "page": 26,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "1ce3411a27775b5666c4248e",
+          "document_id": "B:pmla_2002",
+          "page": 33,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "58608bde260c3073fbcc2fc7",
+          "document_id": "B:pmla_2002",
+          "page": 27,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g023",
+      "status_code": 200,
+      "latency_ms": 3330.381,
+      "trace_id": "3c82fb7e6c334fbb8df6b7793d7e709d",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "62REs may undertake V-CIP to carry out: i) CDD in case of new customer on-boarding for individual customers, proprietor in case of proprietorship firm, authorised signatories and Beneficial Owners (BOs) in case of Legal Entity (LE) customers. 63Provided that in case of CDD of a proprietorship firm, REs shall also obtain the equivalent e- document of the activity proofs with respect to the proprietorship firm, as mentioned in p aragraph 28 and paragraph 29, apart from undertaking CDD of the proprietor.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "97c57aba81c37235f1364d42",
+          "document_id": "B:kyc_md_2016",
+          "page": 22,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "95a64ad60cf3ddd1e16a1d07",
+          "document_id": "B:kyc_md_2025",
+          "page": 23,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "e12b1b92178e9fef1be51bd1",
+          "document_id": "B:kyc_md_2016",
+          "page": 46,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "332f8fb2d156ae461a41fd62",
+          "document_id": "B:kyc_md_2025",
+          "page": 34,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "4f0d883268afdfe9867e3780",
+          "document_id": "B:kyc_md_2016",
+          "page": 27,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "f10ab552c1f918fbf35160cd",
+          "document_id": "B:kyc_md_2016",
+          "page": 31,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g024",
+      "status_code": 200,
+      "latency_ms": 4970.78,
+      "trace_id": "9f1270b0ff3444458834839d5a894a12",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.9455,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "99 an order issued under any such Act, in relation to weapons of mass destruction and their delivery systems; (ii) the CNO has determined that the payment is not directly or indirectly received by an individual or entity in the designated list under this Order; and (iii) the MEA has submitted prior notification to the UNSC or its Committee, of the intention to make or receive such payments or to authorise, where appropriate, he unfreezing of funds, other financial assets or economic resources for this purpose, ten working days prior to such authorization 57 Directions), and shall ensure the meticulous compliance with the Order issued by the Government. any such Act, in relation to weapons of mass destruction and their delivery systems.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "276164a89477d2cd910cba50",
+          "document_id": "B:kyc_md_2025",
+          "page": 57,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "e2fe018209ae07acac8b48fc",
+          "document_id": "B:kyc_md_2025",
+          "page": 100,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "525707a4c54c3eee9ae8e91b",
+          "document_id": "B:kyc_md_2016",
+          "page": 92,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "c8a891a65abb98409bed2b94",
+          "document_id": "B:kyc_md_2025",
+          "page": 99,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "abba96a909f465eb6ca15be9",
+          "document_id": "B:kyc_md_2025",
+          "page": 90,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g025",
+      "status_code": 200,
+      "latency_ms": 2893.321,
+      "trace_id": "c34abc0a6a0c4b7597e602be3c561940",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.2051,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "accounts shall submit a certificate in the enclosed format ( Annex-2) from their CA regarding the current net-worth along with provisional balance sheet. PPI issuer shall submit the following reports as per prescribed templates and frequency in this MD: a) Net-worth Certificate (Annex-2); b) Declaration and Undertaking by the Director (Annex-3); c) PPI Statistics (Annex-4); d) Auditor Certificate on maintenance of balance in Escrow Account (Annex-5); and e) PPI Customer Grievance Report (Annex-6). et-worth Certificate - Audited Annual report with CA certificate on Net-worth – by September 30th",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "9d0cea87952685414da1c3c5",
+          "document_id": "A:ppi_md_2021",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "f6e8e0a4e84cf3a7985c1326",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 14,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "b9b89500f5daceca22c778b1",
+          "document_id": "A:ppi_md_2021",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "f42005bf3be9a47e8a411e50",
+          "document_id": "A:ppi_md_2021",
+          "page": 27,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "569b4407c0292100d77787de",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 4,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g026",
+      "status_code": 200,
+      "latency_ms": 3012.573,
+      "trace_id": "59b6b3b8603b4bdfa2b212e39b8dd554",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.5507,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "other proceeding, furnished or made or issued or taken or purported to have been furnished or made or issued or taken in pursuance of any of the provisions of his Act shall be invalid, or shall be deemed to be invalid merely by reason of any mistake, defect or omission in such notice, summons, order, document or other proceeding if such notice, summons, order, document or other proceeding is in substance and effect in conformity with or according to the intent and purpose of this Act. effect of these directions. remove any difficulties in the application or interpretation of the provisions of these Directions, the RBI may, if it considers necessary, issue necessary clarifications in respect of any matter covered herein and the interpretation of any provision of these",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "c93487260095368965a2a1e0",
+          "document_id": "B:kyc_md_2016",
+          "page": 70,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "55b315428d1bbad149e6708e",
+          "document_id": "B:kyc_md_2025",
+          "page": 73,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "0f81ff74df0f4813eee47942",
+          "document_id": "B:kyc_md_2025",
+          "page": 73,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "42b95a4a83319f72e23a32cf",
+          "document_id": "B:pmla_2002",
+          "page": 33,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "2ece6c2b4de3e4eb68971315",
+          "document_id": "B:dpdp_act_2023",
+          "page": 19,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g027",
+      "status_code": 200,
+      "latency_ms": 2126.108,
+      "trace_id": "57a4c876f42d4b42bd05b5425a7bf34a",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.0,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "एए-11038/1/2025-सीएल एवं ईएस] अिीत क ु मार, संयुि सजचव",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "d39a45578d3a315f2eec6838",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 23,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "7f76ff7ce16399f96f0e8462",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 22,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "61d83dbd3853ecd981fd33e0",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 12,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "de1b902ea773c373922dfb0d",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 5,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "6794e4fd40095075f2a186d1",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 16,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g028",
+      "status_code": 200,
+      "latency_ms": 5179.806,
+      "trace_id": "f25479fbf2c744cea2be7754969798e3",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.5854,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "For the purposes of this MD, computation of net worth of an entity shall be guided by the directions in RBI circular DPSS.CO.AD.No.1344 Thereafter, by the end of the third financial year from the date of receiving final authorisation, the entity shall achieve a minimum positive net -worth of Rs. Illustratively , if an entity is issued final authorisation on March 1, 2018, then this entity shall achieve a minimum positive net -worth of Rs.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "029e1f3c56a9735388fd6865",
+          "document_id": "A:pa_md_2025",
+          "page": 7,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "b9b89500f5daceca22c778b1",
+          "document_id": "A:ppi_md_2021",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "dbec25fa3fb8fa18c86892d2",
+          "document_id": "A:ppi_md_2017",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "14648be966b5024f0906587e",
+          "document_id": "A:ppi_md_2021",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "3e38366ac4eb7b1a82745a53",
+          "document_id": "A:pa_md_2025",
+          "page": 7,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g029",
+      "status_code": 200,
+      "latency_ms": 1770.555,
+      "trace_id": "7b0a7797f1744b7691dd18842b666fb0",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.1053,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "mobile applications, who, in turn shall enable such PPIs to be linked to their PSP handle/s. Such UPI transactions, from PPIs using third party UPI applications, shall be authenticated using the UPI credentials.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "260d7d2198daece1a3033e7a",
+          "document_id": "A:ppi_md_2021",
+          "page": 15,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "198aec1ef2d27806073b5ebd",
+          "document_id": "A:upi_ppi_tpap_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "22c48f808d922ddcf9314057",
+          "document_id": "A:ppi_faq",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "549b9ee32b6670ccbac969c8",
+          "document_id": "A:ppi_md_2021",
+          "page": 15,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "fb05d626c7b5df3ba277a6f6",
+          "document_id": "A:upi_ppi_tpap_2024",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g030",
+      "status_code": 200,
+      "latency_ms": 2799.475,
+      "trace_id": "d83fc42473e54d1ebde629ec30aa320c",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.1905,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "Members and officers to be public servants.45 of 1860. [See rule 18] Terms and conditions of service of Chairperson and other Members Chairperson and other Members shall be such as may be prescribed, and shall not be varied to their disadvantage after their appointment.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "d9d7c25200edb16b1a4867ec",
+          "document_id": "B:dpdp_act_2023",
+          "page": 13,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "1a4a5812317ee471372c4156",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 38,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "64bf0cf618353228b3401283",
+          "document_id": "B:pmla_2002",
+          "page": 23,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "ec867e755f62d2d7d4dd59a5",
+          "document_id": "B:dpdp_act_2023",
+          "page": 12,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "c784b8948d2cc28348c79630",
+          "document_id": "B:dpdp_act_2023",
+          "page": 12,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g031",
+      "status_code": 200,
+      "latency_ms": 8496.679,
+      "trace_id": "ecf144327c5d42e2bdb69b3ba7634784",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.3333,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "(iii) Further, the bank at its option, may obtain a copy of OVD or deemed OVD, as defined in sub-clause (xiv) of clause (1) of paragraph 5, or the equivalent e-documents thereof, as defined in sub-clause (x) of clause (1) of paragraph 5, for the purpose of proof of address, declared by the customer at the time of updation / periodic updation. 114Further, REs, at their option, may obtain a copy of OVD or deemed OVD, as defined in paragraph 3(a)(xiv), or the equivalent e -documents thereof, as defined in paragraph 3(a)(x), for the purpose of proof of address, declared by the customer at the time of 115updation/ periodic updation. 9 OVD for the purpose of proof of address.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "dc4de9a727acf5ed3c13463a",
+          "document_id": "B:kyc_md_2025",
+          "page": 42,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "bc8947dcd897c0274e38769c",
+          "document_id": "B:kyc_md_2016",
+          "page": 95,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "f4a6632ddc8c56066f81f938",
+          "document_id": "B:kyc_md_2016",
+          "page": 40,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "5345a84674c33e843a4c2017",
+          "document_id": "B:kyc_md_2016",
+          "page": 94,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "7b20736df7c5a27b810ac574",
+          "document_id": "B:kyc_md_2025",
+          "page": 9,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g032",
+      "status_code": 200,
+      "latency_ms": 2925.785,
+      "trace_id": "c886ebb13267473da1cc28bf47e7cf68",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.0882,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "(a) These Directions shall be called the Reserve Bank of India (Know Your Customer (KYC)) Directions, 2016. (b) These directions shall come into effect on the day they are placed on the official website of the Reserve Bank of India. The responsibility to ensure compliance with the provisions of these directions would be on the authorised / approved PSOs toensure that such data is stored only in India as required under the above directions.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "0f81ff74df0f4813eee47942",
+          "document_id": "B:kyc_md_2025",
+          "page": 73,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "4dba2fe6896b44f491cff3fb",
+          "document_id": "B:kyc_md_2016",
+          "page": 4,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "f22c4e602272ea4fa9493fd1",
+          "document_id": "B:cyber_md_2024",
+          "page": 4,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "1185d8ab9dc864ab9571f071",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 1,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "0669f830f0a5340ee7f35501",
+          "document_id": "B:data_storage_faq",
+          "page": 1,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g033",
+      "status_code": 200,
+      "latency_ms": 2378.688,
+      "trace_id": "f4997407315945af923631fb0bfd714e",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.9655,
+      "failure": "none",
+      "judge": "llm",
+      "answer": "The model shall facilitate optimal creation, use and sharing of information by a business, in a way that it maintains integrity, and is flexible, functional, timely, secure and resilient to failure. The model shall facilitate optimal creation, use and sharing of information by a business, in a way that it maintains integr ity, and is flexible, functional, timely, secure and resilient to failure. information model to enable applications development and decision- supporting activities, consistent with board approved IT strategy.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "7345ac8e5364ef5552d9d5a2",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 12,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "11a2403b66e45c4d0b65e676",
+          "document_id": "A:pa_md_2025",
+          "page": 22,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "164108abb93865361485b18c",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 9,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "689ba585f385596cbcf7ef68",
+          "document_id": "A:pa_circular_2021",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "8d5a45f883596223f3200ff5",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 4,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g034",
+      "status_code": 200,
+      "latency_ms": 8029.827,
+      "trace_id": "ddd409b08da341b2b6998caf1645fa2a",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.4211,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "In case of bank issued PPIs, cash withdrawal is permitted at ATMs, PoS devices, BCs, etc. (ii) Full-KYC PPIs : Issued by banks and non -banks after completing Know Your Customer (KYC) of the PPI holder. These PPIs shall be used for purchase of goods and services, funds transfer or cash withdrawal.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "22c48f808d922ddcf9314057",
+          "document_id": "A:ppi_faq",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "04cce58a1eada2cf22e39e80",
+          "document_id": "A:ppi_faq",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "967757275e84b1d4264a9d5e",
+          "document_id": "A:ppi_faq",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "360b5c0febc873c9aeda12ae",
+          "document_id": "A:ppi_md_2021",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "749c20148ede3ce0b41b18e1",
+          "document_id": "A:ppi_faq",
+          "page": 1,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g035",
+      "status_code": 200,
+      "latency_ms": 3099.431,
+      "trace_id": "094db10f9d3445749c7cccfb7ac8ad4c",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.5217,
+      "failure": "none",
+      "judge": "llm",
+      "answer": "owned by or are held for the benefit of the designated individuals/entities, an orders to freeze these assets under Section 51A of the UAPA would be issued by the Central [designated] nodal officer for the UAPA without delay and conveyed electronically to the concerned bank branch, depository and insurance company under intimation to respective Regulators and FIU -IND. held for the benefit of, the designated individuals/entities, an order to freeze these assets under Section 12A would be issued by the CNO without delay and be conveyed electronically to the concerned Registrar performing the work of registering immovable properties, and to FIU under intimation to the concerned State Nodal Officer. with those of designated individuals/entities, an order under Section 51A of the UAPA shall be issued by the Central [designated] Nodal Officer for the UAPA without delay and conveyed to the concerned Registrar performing the work of registering immovable properties and to FIU-IND under intimation to the concerned UAPA Nodal Officer of the State/UT.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "543428b737a0568f45fb2125",
+          "document_id": "B:kyc_md_2025",
+          "page": 93,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "5c7e932f5e4fc198f7e43a3a",
+          "document_id": "B:kyc_md_2025",
+          "page": 80,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "e9cacac8c1ccf2eb581d5983",
+          "document_id": "B:kyc_md_2016",
+          "page": 77,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "553be5ce33e68c570ebc1ea6",
+          "document_id": "B:kyc_md_2025",
+          "page": 44,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "0964b5b9d09a0a9e41efe0bf",
+          "document_id": "B:kyc_md_2025",
+          "page": 39,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "b2857672dff5bc6a62de5b69",
+          "document_id": "B:kyc_md_2025",
+          "page": 78,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g036",
+      "status_code": 200,
+      "latency_ms": 2712.245,
+      "trace_id": "83e44cd02a664116b4b84a257377f23e",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.4667,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "Conditions for registration of Consent Manager report the outcome of such audit to the Board, periodically and on such other occasions as the Board may direct, in respect of— (a) technical and organisational controls, systems, procedures and safeguards; (b) continued fulfilment of the conditions of registration; and (c) adherence to its obligations under the Act and these rules. Obligations of Consent Manager",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "db68c390e18854c89dfddb57",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 32,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "d1e432a9bae3c757892e2bfb",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 32,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "2d5f93b3576b12a3f25c7bea",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 32,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "c6efa81207665b98d8dfb174",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 34,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "7beca9891666507a53b81444",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 33,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g037",
+      "status_code": 200,
+      "latency_ms": 9405.534,
+      "trace_id": "f60d9a01a3b449209bbcdc9990d3d8b4",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.1522,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "Fiduciary under the Act may be transferred outside the territory of India subject to the restriction that the Data Fiduciary shall meet such requirements as the Central Government may, by general or special order, specify in respect of making such personal data available to any foreign State, or to any person or entity under the control of or any agency of such a State. general or special order in this behalf may furnish or cause to be furnished to— Where a Special Court, in relation to an offence punishable under section 4, desires that— (a) a summons to an accused person, or (b) a warrant for the arrest of an accused person, or (c) a summons to any person requiring him to attend and produc e a document or other thing or to produce it, or (d) a search warrant, issued by it shall be served or executed at any place in any contracting State, it shall send such summons or warrant in duplicate in such form, to such Court, Judge or Magistrate thro ugh such authorities, as the Central Government may, by notification, specify in this behalf and that Court, Judge or Magistrate, as the case may be, shall cause the same to be executed.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "19ad36afe34abae965ca5589",
+          "document_id": "B:pmla_2002",
+          "page": 32,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "ae10c271278911d82e28fa93",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 30,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "58608bde260c3073fbcc2fc7",
+          "document_id": "B:pmla_2002",
+          "page": 27,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "b2e577cd267bf2c330fce2c6",
+          "document_id": "B:pmla_2002",
+          "page": 3,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "495632fdda94ce98e3166256",
+          "document_id": "B:pmla_2002",
+          "page": 30,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "1e6f0c1a97c2ddae4f55ddfd",
+          "document_id": "B:pmla_2002",
+          "page": 29,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g038",
+      "status_code": 200,
+      "latency_ms": 3008.691,
+      "trace_id": "96d62352603a49da81143bb181e59b23",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.2174,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "(5) The bank shall, at their discretion, rely on the 'customer due diligence' (CDD) done by an intermediary, provided that the intermediary is a regulated and supervised entity and has adequate systems in place to comply with the KYC requirements of the customers. 58 (8) In case the bank receives an order to freeze assets under section 12A from the CNO, the bank shall, without delay, take necessary action to comply with the Order. a) The ASP shall comply with the relevant standards inc luding PCI-DSS and PA-DSS, as applicable to the IT ecosystem.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "76a945cc91fe7b9052b56e9b",
+          "document_id": "B:kyc_md_2025",
+          "page": 48,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "da15e860e0597c954c5a4fd1",
+          "document_id": "B:kyc_md_2025",
+          "page": 58,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "d0036517f734baa198cfe4f0",
+          "document_id": "B:cyber_md_2026",
+          "page": 29,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "564162b86e1af46a46524cfe",
+          "document_id": "B:cust_liability_2017",
+          "page": 6,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "37792ba932b5ea7f3fa7768a",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 5,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g039",
+      "status_code": 200,
+      "latency_ms": 5089.804,
+      "trace_id": "d885b097254046378d98696b7603ef07",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.5417,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "(10) The authorised officer shall provide a declaration about the capturing of the live photograph of the customer and original document. The live photograph of the authorized official shall also be captured in this authorized officer’s declaration. The authorised officer shall ensure there is n o skew or tilt in the mobile device while capturing the live photograph of the original documents.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "949ed7c1ec726e03f3e1316c",
+          "document_id": "B:kyc_md_2025",
+          "page": 28,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "a3b4910a476ebbdc318943f3",
+          "document_id": "B:kyc_md_2016",
+          "page": 72,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "3bc9d8691b14752cc2e03170",
+          "document_id": "B:kyc_md_2016",
+          "page": 72,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "763a4b67e686f21ba3842b0c",
+          "document_id": "B:kyc_md_2016",
+          "page": 71,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "4e71b14bfdd8200c41b86c1b",
+          "document_id": "B:kyc_md_2016",
+          "page": 72,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "75e5cf1aa06f8158ced047ab",
+          "document_id": "B:kyc_md_2025",
+          "page": 29,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g040",
+      "status_code": 200,
+      "latency_ms": 6722.118,
+      "trace_id": "4887c1ca27684d4e82b2d3aa67c4508d",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.0876,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "respect of any matter for which the Board is empowered under the provisions of this Act and no injunction shall be granted by any court or other authority in respect of any action taken or to be taken in pursuance of any power under the provisions of this Act. (1B)The expenses of, and incidental to, any audit under sub-section (1A) shall be borne by the Central Government.] 2[(2) If the Director, in the course of any inquiry, finds that a reporting entity or its designated director on the Board or any of its employees has failed to comply with the obligations under this Chapter, then, without prejudice to any other action that may be taken under any other provisions of this Act, he may— (a) issue a warning in writing; or (b) direct such reporting entity or its designated director on the Board or any of its employees, to comply with specific instructions; or (c) direct such reporting entity or its designated director on the Board or any of its employees, to send reports at such interval as may be prescribed on the measures it is taking; or (d) by an order, impose a monetary penalty on such reporting entity or its designated director on the Board or any of its employees, which shall not be less than ten thousand rupees but may extend to one lakh rupees for each failure.] (3) The Director shall forward a copy of the order passed under sub -section ( 2) to every banking company, financial institution or intermediary or person who is a party to the proceedings under that sub-section. (3) The Central Government may exercise its powers under this section through any authority who has been assigned the power under sub-section (1) of section 7.” II In order to ensure expeditious and effective implementation of the provisions of Section 12A of the Act, the procedure is outlined below.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "754cec8a45c2a9b0c10062f6",
+          "document_id": "B:dpdp_act_2023",
+          "page": 18,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "abba96a909f465eb6ca15be9",
+          "document_id": "B:kyc_md_2025",
+          "page": 90,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "8b98591edf4cc9f8c6732ea8",
+          "document_id": "B:pmla_2002",
+          "page": 16,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "ed0d33809467252c17a0e69f",
+          "document_id": "B:pmla_2002",
+          "page": 21,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "42b95a4a83319f72e23a32cf",
+          "document_id": "B:pmla_2002",
+          "page": 33,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "e2fe018209ae07acac8b48fc",
+          "document_id": "B:kyc_md_2025",
+          "page": 100,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g041",
+      "status_code": 200,
+      "latency_ms": 13.609,
+      "trace_id": "7a2ab1faaa0f4fdb9520b06cedcfbb0d",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.1071,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "personal data of a Data Principal in the interest of sovereignty and integrity of India or security of the State. Such officer of the State or of any of its instrumentalities notified under clause (a) of sub-section (2) of section 17 of the Act, as the Central Government or the head of such instrumentality, as the case may be, may designate in this behalf.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "be5198d2881fae837e226cd2",
+          "document_id": "B:pmla_2002",
+          "page": 5,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "e693c42deed2ba13c49d40df",
+          "document_id": "B:pmla_2002",
+          "page": 24,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "168758e182f8429eead27462",
+          "document_id": "B:kyc_md_2025",
+          "page": 22,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "79c190a21fd8d9ebe2a57d38",
+          "document_id": "B:dpdp_act_2023",
+          "page": 19,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "373fd6ed1ef2f10ec7c82119",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 40,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g042",
+      "status_code": 200,
+      "latency_ms": 12.083,
+      "trace_id": "815b66df92bf4ef6bddf76431995cb90",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.4466,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "opinion on any point, they shall state the point or points on which they differ, and make a reference to the 1[Chairman] who shall either hear the point or points himself or refer the case for hearing on such point or points by 2[third Member] of the Appellate Tribunal and such point or points shall be decided according to the opinion of the majority of the Members of the Appellate Tribunal who have heard the case, including those who first heard it. Appellate Tribunal.—The Appellate Tribunal constituted under sub-section (1) of section 12 of the Smugglers and Foreign Exchange Manipulators (Forfeiture of Property) Act, 1976 (13 of 1976) shall be the Appellate Tribunal for hearing appeals against the orders of the Adjudicating Authority and the other authorities under this Act.] (5) The Appellate Tribunal shall send a copy of every order made by it to the Board and to the parties to the appeal.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "ed0d33809467252c17a0e69f",
+          "document_id": "B:pmla_2002",
+          "page": 21,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "f01fd6f2be9a75868de55bbe",
+          "document_id": "B:pmla_2002",
+          "page": 23,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "8aa09225dbc52562fa80603c",
+          "document_id": "B:dpdp_act_2023",
+          "page": 16,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "0a20f4cf59745348cb7dba6d",
+          "document_id": "B:pmla_2002",
+          "page": 22,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "98b7c19927f977ca4826e24d",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 31,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g043",
+      "status_code": 200,
+      "latency_ms": 15.6,
+      "trace_id": "cd44cf290a174ca39f4e9c933d7c18e1",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.4583,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "100 Immovable Properties/ROC/Regulators and the State Nodal Officer. 19 (3) The bank shall not nominate the Principal Officer as the 'Designated Director'. of the Principal Secretary/Secretary, Home Department and communicate the name and contact details to the Central [designated] Nodal Officer for the UAPA.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "baafe9af2c35567c388496ae",
+          "document_id": "B:kyc_md_2025",
+          "page": 100,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "ee6b65d4ceb12884dd6d82fa",
+          "document_id": "B:kyc_md_2025",
+          "page": 19,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "31b7a5361535e26a566f49c3",
+          "document_id": "B:kyc_md_2025",
+          "page": 76,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "624c9c8e0c6981b2cc87f2a8",
+          "document_id": "B:kyc_md_2025",
+          "page": 19,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "4e50b17f7285aaa9146e10d0",
+          "document_id": "B:kyc_md_2016",
+          "page": 75,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g044",
+      "status_code": 200,
+      "latency_ms": 16.574,
+      "trace_id": "b7a4f74227f5465ca9b67f62dbe246b1",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.1667,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "(2) The Significant Data Fiduciary shall— (a) appoint a Data Protection Officer who shall— (i) represent the Significant Data Fiduciary under the provisions of this Act; (ii) be based in India; (iii) be an individual responsible to the Board of Directors or similar governing body of the Significant Data Fiduciary; and (iv) be the point of contact for the grievance redressal mechanism under the provisions of this Act; (b) appoint an independent data auditor to carry out data audit, who shall evaluate the compliance of the Significant Data Fiduciary in accordance with the provisions of this Act; and (c) undertake the following other measures, namely:— (i) periodic Data Protection Impact Assessment, which shall be a process comprising a description of the rights of Data Principals and the purpose of processing of their personal data, assessment and management of the risk to the rights of the Data Principals, and such other matters regarding such process as may be prescribed; (ii) periodic audit; and (iii) such other measures, consistent with the provisions of this Act, as may be prescribed. out its functions under this Act, conduct or get conducted audits and insp ections of a payment system or participants thereof and it shall be the duty of the system provider and the system participants to assist the Reserve Bank to carry out such audit or inspection, as the case may be. personal data of a Data Principal in the interest of sovereignty and integrity of India or security of the State.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "373fd6ed1ef2f10ec7c82119",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 40,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "998c6e7e914a38f7d1f9461b",
+          "document_id": "B:pss_act_2007",
+          "page": 10,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "a8b13c362ae73af0f7af447b",
+          "document_id": "B:dpdp_act_2023",
+          "page": 17,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "4321bc2cd6a5174da2140345",
+          "document_id": "B:dpdp_act_2023",
+          "page": 9,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "c8cce662c1d6d29e3bdf8068",
+          "document_id": "B:cyber_md_2024",
+          "page": 9,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g045",
+      "status_code": 200,
+      "latency_ms": 15.617,
+      "trace_id": "efbb5b8952464a35b83cc5868ebf63dd",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.0577,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "with those of designated individuals/entities, an order under Section 51A of the UAPA shall be issued by the Central [designated] Nodal Officer for the UAPA without delay and conveyed to the concerned Registrar performing the work of registering immovable properties and to FIU-IND under intimation to the concerned UAPA Nodal Officer of the State/UT. Corporate Affairs, Foreigners Division of MHA, FIU -IND, Central Board of Indirect Taxes and Customs (CBIC) and Financial Regulators (RBI, SEBI and IRDA) shall appoint a UAPA Nodal Officer and communicate the name and contact details to the Central [designated] Nodal Officer for the UAPA. of the Principal Secretary/Secretary, Home Department and communicate the name and contact details to the Central [designated] Nodal Officer for the UAPA.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "2c161dc74d04aed0bc81005d",
+          "document_id": "B:kyc_md_2025",
+          "page": 84,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "31b7a5361535e26a566f49c3",
+          "document_id": "B:kyc_md_2025",
+          "page": 76,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "4e50b17f7285aaa9146e10d0",
+          "document_id": "B:kyc_md_2016",
+          "page": 75,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "6671dc5b77980f539683fae6",
+          "document_id": "B:kyc_md_2025",
+          "page": 76,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "e9cacac8c1ccf2eb581d5983",
+          "document_id": "B:kyc_md_2016",
+          "page": 77,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g046",
+      "status_code": 200,
+      "latency_ms": 4258.996,
+      "trace_id": "777d574e541a4017bc02a75f6e9d3424",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.1429,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "96 Category Eligible Foreign Investors determining compliance with KYC norms. 45 Part VI - Enhanced and Simplified Due Diligence Procedure",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "216bedb359c8e5cb7f170da1",
+          "document_id": "B:kyc_md_2025",
+          "page": 18,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "b19eb569aed75128c59fa706",
+          "document_id": "B:kyc_md_2016",
+          "page": 96,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "056cc537ace717320ebbe921",
+          "document_id": "B:kyc_md_2016",
+          "page": 45,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "88eac42f9fead36ce9cefc6f",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 3,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "168758e182f8429eead27462",
+          "document_id": "B:kyc_md_2025",
+          "page": 22,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g047",
+      "status_code": 200,
+      "latency_ms": 10.218,
+      "trace_id": "c51d9afb5c4a48b59a1388280163783c",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.0652,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "inter-alia, on certain essential aspects like customer service and efficiency , technical and other related requirements , safety and security aspects , etc. inter-alia, on certain essential aspects like customer service and efficiency , technical and other related requirements , safety and security aspects , etc., before granting in -principle approval to the applicants. a) To provide a framework for authorisation , regulation and supervision of entities issuing and operating PPIs in the country; b) To foster competition and encourage innovation in this segment in a prudent manner while taking into account safety and security of systems and transactions along with customer protection and convenience; and c) To provide for harmonisation and interoperability of PPIs.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "a7a95eb270df52db498523dd",
+          "document_id": "A:auth_directions_2025",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "e17daf5d31b1c12a41fd167b",
+          "document_id": "A:ppi_md_2021",
+          "page": 19,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "cc818345fe662bf6cd46127f",
+          "document_id": "A:ppi_md_2017",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "c4027e3997956fdd4997f2f0",
+          "document_id": "A:ppi_md_2021",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "9d02ab65ef213d0d3686f8a1",
+          "document_id": "A:ppi_md_2021",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g048",
+      "status_code": 200,
+      "latency_ms": 7718.157,
+      "trace_id": "3190b6fa72ae4dc4b3d38ee75c296466",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.7188,
+      "failure": "none",
+      "judge": "llm",
+      "answer": "88For opening an account of a company , certified copies of each of the following documents or the equivalent e-documents thereof shall be obtained: (a) Certificate of incorporation (b) Memorandum and Articles of Association (c) 89Permanent Account Number of the company (d) A resolution from the Board of Directors and power of attorney granted to its managers, officers or employees to transact on its behalf (a) REs shall ensure compliance with KYC Policy through: (i) Specifying as to who constitute ‘Senior Management’ for the purpose of KYC compliance. of the following documents or the equivalent e-documents thereof: (1) Registration certificate (2) Trust deed (3) PAN or Form No.60 of the trust (4) Documents, as specified in paragraph 23, relating to beneficial owner, managers, officers or employees, as the case may be, holding an attorney to transact on its behalf (5) the names of the beneficiaries, trustees, settlor, protector, if any and authors of the trust (6) the address of the registered office of the trust; and (7) list of trustees and documents, as specified in paragraph 23, for those discharging the role as trustee and authorised to transact on behalf of the trust.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "216bedb359c8e5cb7f170da1",
+          "document_id": "B:kyc_md_2025",
+          "page": 18,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "04190c15d035aca5408149cc",
+          "document_id": "B:kyc_md_2016",
+          "page": 35,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "fa412d8e80b6af50cbe7a16a",
+          "document_id": "B:kyc_md_2016",
+          "page": 17,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "d3dc37ea54fa67f6f523c6d1",
+          "document_id": "B:kyc_md_2025",
+          "page": 18,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "d4dd00820b9401f5c888d103",
+          "document_id": "B:kyc_md_2025",
+          "page": 38,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g049",
+      "status_code": 200,
+      "latency_ms": 12.914,
+      "trace_id": "352ae1c4c5bd490c9364197a7b3345f9",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.2353,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "100 Immovable Properties/ROC/Regulators and the State Nodal Officer. personal data of a Data Principal in the interest of sovereignty and integrity of India or security of the State. Such officer of the State or of any of its instrumentalities notified under clause (a) of sub-section (2) of section 17 of the Act, as the Central Government or the head of such instrumentality, as the case may be, may designate in this behalf.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "baafe9af2c35567c388496ae",
+          "document_id": "B:kyc_md_2025",
+          "page": 100,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "4de140f3abd4d33325971f92",
+          "document_id": "B:cyber_md_2026",
+          "page": 29,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "ae6a8990806521e2cd8cc308",
+          "document_id": "B:pmla_2002",
+          "page": 40,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "f89448c0dee45f0dbd0515bc",
+          "document_id": "B:pmla_2002",
+          "page": 41,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "373fd6ed1ef2f10ec7c82119",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 40,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g050",
+      "status_code": 200,
+      "latency_ms": 8.283,
+      "trace_id": "a95450b2f33c410aa0087cb770113145",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.1071,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "personal data of a Data Principal in the interest of sovereignty and integrity of India or security of the State. Such officer of the State or of any of its instrumentalities notified under clause (a) of sub-section (2) of section 17 of the Act, as the Central Government or the head of such instrumentality, as the case may be, may designate in this behalf.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "bd8aeeda949d5253a8f581c4",
+          "document_id": "B:kyc_md_2025",
+          "page": 17,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "f38e2d315f0156188c5635c6",
+          "document_id": "B:pss_act_2007",
+          "page": 9,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "373fd6ed1ef2f10ec7c82119",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 40,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "8d63619c67566b9f9852f25e",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 7,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "56097934edbe5b02981f6975",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 1,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g051",
+      "status_code": 200,
+      "latency_ms": 17.342,
+      "trace_id": "3209a3fa25444076b19308985033da5d",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.5778,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "as may be required on the basis of the evidence furnished by the individual/entity, and, if satisfied, he/she shall pass an order, without delay, unfreezing the funds, financial assets or economic resources or related services, owned/held by such applicant, under This verification shall be completed without delay and shall be conveyed within 24 hours of the verification, if it matches with the particulars of the designated individual/entity to the Central [designated] Nodal Officer for the UAPA at the given Fax, telephone numbers and also on the email id. This verification shall be completed without delay and shall be conveyed within 24 hours of the verification, if it matches with the particulars of the designated individual/entity to the Central [designated] Nodal Officer for the UAPA at the given Fax, telephone numbers and also on the email id.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "0c40579c7a4e3568d1fa0100",
+          "document_id": "B:kyc_md_2025",
+          "page": 85,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "e6f7377d4c79f76d96290624",
+          "document_id": "B:kyc_md_2025",
+          "page": 79,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "fc98da81b13035c7d669d1e0",
+          "document_id": "B:pmla_2002",
+          "page": 41,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "52a33d7638c6d69ca4be625d",
+          "document_id": "B:kyc_md_2016",
+          "page": 77,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "e770deacea069570f751178f",
+          "document_id": "B:kyc_md_2016",
+          "page": 87,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "b71f8de7974c55b56732f769",
+          "document_id": "B:kyc_md_2025",
+          "page": 93,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g052",
+      "status_code": 200,
+      "latency_ms": 12.718,
+      "trace_id": "5e40b04a263c4d14879b6e96f8bf77f3",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 0.0,
+      "correctness": 0.0,
+      "failure": "ungrounded",
+      "judge": "llm",
+      "answer": "सौंपेर्ा ।",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "fdd4f0fcb858768e1b2d3bed",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 14,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "fdfa5f12732d009959b947f6",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 14,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "c54809255dfc202d66ff0930",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 14,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "839565635eb19d480266b2f8",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 3,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "7bb6637469c577722990dbf0",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 14,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g053",
+      "status_code": 200,
+      "latency_ms": 21.257,
+      "trace_id": "6d324bbb176b4785a62dcb17d63f5c9b",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.1286,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "(2) In this rule and the Second Schedule, the reference to any subsidy, benefit, service, certificate, licence or permit that is provided or issued— (a) under law shall be construed as a reference to provision or issuance of such subsidy, benefit, service, certificate, licence or permit in exercise of any power of or the performance of any function by the State or any of its instrumentalities under any law for the time being in force; (b) under policy shall be construed as a reference to provision or issuance of such subsidy, benefit, service, certificate, licence or permit under any policy or instruction issued by the Central Government or a State Government in exercise of its executive power; and (c) using public funds shall be construed as a reference to provision or issuance of such subsidy, benefit, service, certificate, licence or permit by incurring expenditure on the same from, or with accrual of receipts to, — (i) in case of the Central Government or a State Government, the Consolidated Fund of India or the Consolidated Fund of the State or the public account of India or the public account of the State; or (ii) in case of any local or other authority within the territory of India or under the control of the Government of India or of any State, the fund or funds of such authority. respect of any matter for which the Board is empowered under the provisions of this Act and no injunction shall be granted by any court or other authority in respect of any action taken or to be taken in pursuance of any power under the provisions of this Act. or proceeding in respect of any matter which the Director, an Adjudicating Authority or the Appellate Tribunal is empowered by or und er this Act to determine and no injunction shall be granted by any court or other authority in respect of any action taken or to be taken in pursuance of any power conferred by or under this Act.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "dd671940218a1a5bd3900b6d",
+          "document_id": "B:pmla_2002",
+          "page": 43,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "754cec8a45c2a9b0c10062f6",
+          "document_id": "B:dpdp_act_2023",
+          "page": 18,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "ef51eb5e684fde4ba254bac0",
+          "document_id": "B:kyc_md_2016",
+          "page": 47,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "b227d6cdd00e5a97b7b01239",
+          "document_id": "B:pmla_2002",
+          "page": 23,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "a944616de12273a7d666fa82",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 25,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g054",
+      "status_code": 200,
+      "latency_ms": 9.663,
+      "trace_id": "b1bf250715ad4aafaf832dc20ae368ad",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.2581,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "(2) In this rule and the Second Schedule, the reference to any subsidy, benefit, service, certificate, licence or permit that is provided or issued— (a) under law shall be construed as a reference to provision or issuance of such subsidy, benefit, service, certificate, licence or permit in exercise of any power of or the performance of any function by the State or any of its instrumentalities under any law for the time being in force; (b) under policy shall be construed as a reference to provision or issuance of such subsidy, benefit, service, certificate, licence or permit under any policy or instruction issued by the Central Government or a State Government in exercise of its executive power; and (c) using public funds shall be construed as a reference to provision or issuance of such subsidy, benefit, service, certificate, licence or permit by incurring expenditure on the same from, or with accrual of receipts to, — (i) in case of the Central Government or a State Government, the Consolidated Fund of India or the Consolidated Fund of the State or the public account of India or the public account of the State; or (ii) in case of any local or other authority within the territory of India or under the control of the Government of India or of any State, the fund or funds of such authority. permit by State and its instrumentalities . — (1) Processing the personal data of a Data Principal under this rule shall be done following the standards specified in Second Schedule.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "aeec1a0bfd4c955dfa926698",
+          "document_id": "B:kyc_md_2016",
+          "page": 21,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "2c0b3f7883450a20d3320ad2",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 40,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "11eecfbf282393f127ac1a5e",
+          "document_id": "B:kyc_md_2025",
+          "page": 21,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "a944616de12273a7d666fa82",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 25,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "e7ca58f21afba662715ee2a1",
+          "document_id": "B:pmla_2002",
+          "page": 46,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g055",
+      "status_code": 200,
+      "latency_ms": 10.663,
+      "trace_id": "eff488f6e7f74b46a2a833acd9b65731",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 0.0,
+      "correctness": 0.0,
+      "failure": "ungrounded",
+      "judge": "llm",
+      "answer": "11",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "1124b1ee3a32a517fd544b71",
+          "document_id": "B:cyber_md_2026",
+          "page": 11,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "5607cd18337c53a1b4779e07",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 20,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "d205947e8430530938f810fa",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 22,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "7f76ff7ce16399f96f0e8462",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 22,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "f5f3db71ba74876d9e0ad6cd",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 21,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g056",
+      "status_code": 200,
+      "latency_ms": 19.342,
+      "trace_id": "3db54bc22782437387cee38b2e777c49",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.1765,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "(2) The provisions of this Act shall not apply in respect of the processing of personal data— (a) by such instrumentality of the State as the Central Government may notify, in the interests of sovereignty and integrity of India, security of the State, friendly relations with foreign States, maintenance of public order or preventing incitement to any cognizable offence relating to any of these, and the processing by the Central Government of any personal data that such instrumentality may furnish to it; and Processing of personal data outside India. personal data of a Data Principal in the interest of sovereignty and integrity of India or security of the State. Such officer of the State or of any of its instrumentalities notified under clause (a) of sub-section (2) of section 17 of the Act, as the Central Government or the head of such instrumentality, as the case may be, may designate in this behalf.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "3fcb7eb1f99a18330924dffa",
+          "document_id": "B:kyc_md_2016",
+          "page": 19,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "dd671940218a1a5bd3900b6d",
+          "document_id": "B:pmla_2002",
+          "page": 43,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "373fd6ed1ef2f10ec7c82119",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 40,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "ee6b65d4ceb12884dd6d82fa",
+          "document_id": "B:kyc_md_2025",
+          "page": 19,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "a2b0a35e234689c0ebb90b79",
+          "document_id": "B:dpdp_act_2023",
+          "page": 11,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g057",
+      "status_code": 200,
+      "latency_ms": 7.46,
+      "trace_id": "dbead67f01b744e9b0c0145c709f9e7a",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.7391,
+      "failure": "none",
+      "judge": "llm",
+      "answer": "(DPMS) and DNFBPs shall forward the consolidated list of UAPA Nodal Officers to the real estate agents, dealers in precious metals & stones (DPMS) and DNFBPs. (DPMS) and DNFBPs shall forward the consolidated list of UAPA Nodal Officers to the real estate agents, dealers in precious metals & stones (DPMS) and DNFBPs. (DPMS) and DNFBPs shall forward the list of designated persons as mentioned in Para 4(i) above, to the real estate agents, dealers in precious metals & stones (DPMS) and DNFBPs without delay.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "c1ecf55aecbb38ce3b42aa8e",
+          "document_id": "B:kyc_md_2025",
+          "page": 76,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "e05fe8aadef61fce06387877",
+          "document_id": "B:kyc_md_2016",
+          "page": 75,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "4d1fcbebf2dd0e7457eb6f93",
+          "document_id": "B:kyc_md_2016",
+          "page": 75,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "a3882fbb73e99258711bbc26",
+          "document_id": "B:kyc_md_2025",
+          "page": 77,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "900da988400164c3a8efa04e",
+          "document_id": "B:cyber_md_2026",
+          "page": 4,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g058",
+      "status_code": 200,
+      "latency_ms": 8.295,
+      "trace_id": "6648e0a856f4458d84c8cf00083ebf4b",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.1765,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "100 Immovable Properties/ROC/Regulators and the State Nodal Officer. personal data of a Data Principal in the interest of sovereignty and integrity of India or security of the State. Such officer of the State or of any of its instrumentalities notified under clause (a) of sub-section (2) of section 17 of the Act, as the Central Government or the head of such instrumentality, as the case may be, may designate in this behalf.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "3150e66740bd8c00d8bfe0bd",
+          "document_id": "B:cyber_md_2026",
+          "page": 30,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "baafe9af2c35567c388496ae",
+          "document_id": "B:kyc_md_2025",
+          "page": 100,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "373fd6ed1ef2f10ec7c82119",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 40,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "27c3dbeef203221d32550f93",
+          "document_id": "B:kyc_md_2025",
+          "page": 36,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "8d63619c67566b9f9852f25e",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 7,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g059",
+      "status_code": 200,
+      "latency_ms": 2635.936,
+      "trace_id": "d205b98332b747cc9215a47fcf03406f",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.1154,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "PPI issuer shall decide on limits considering the risk perception of the holders as per its risk management policy. handle to the PPI issuer as per its policy / guidelines taking risk management aspects into consideration. issuer is permitted to participate as member / associate member of authorised card networks.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "e2713eac9200daba48f93bbc",
+          "document_id": "A:ppi_md_2021",
+          "page": 19,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "87b63b0ded8f4e0d088de55b",
+          "document_id": "A:ppi_md_2021",
+          "page": 14,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "549b9ee32b6670ccbac969c8",
+          "document_id": "A:ppi_md_2021",
+          "page": 15,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "96e05b05c4c5e13e578b9480",
+          "document_id": "A:ppi_faq",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "9d02ab65ef213d0d3686f8a1",
+          "document_id": "A:ppi_md_2021",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g060",
+      "status_code": 200,
+      "latency_ms": 3689.261,
+      "trace_id": "47a287a769c0417a9dd64bb915f62c6f",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.4237,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "PPIs are instruments that facilitate purchase of goods and services, conduct of financial services, enable remittance facilities, etc., against the value stored therein. For this purpose, the Issuers shall provide an option, including at the time of issuing the PPI, to the holder to provide details of pre-designated bank account or other PPIs of same issuer (or other issuer s as and when permitted ) to which the balance amount available in the PPI shall be transferred in the event of closure of PPI, expiry of validity period of such PPIs, etc. l) The features of such PPIs shall be clearly communicated to the PPI holder by SMS / e- mail / post or by any other means at the time of issuance of the PPI / before the first loading of funds.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "43835b418c5bba0a44837958",
+          "document_id": "A:ppi_md_2017",
+          "page": 17,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "4fa1749f379c98428aa7edd1",
+          "document_id": "A:ppi_md_2021",
+          "page": 18,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "d83035c19425386a6ef3a797",
+          "document_id": "A:ppi_faq",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "9d09d95e8ff621537c5adc3d",
+          "document_id": "A:ppi_md_2017",
+          "page": 13,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a888f576a8ca1991c29a07e8",
+          "document_id": "A:ppi_md_2021",
+          "page": 18,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g061",
+      "status_code": 200,
+      "latency_ms": 1954.753,
+      "trace_id": "24b2aa5834a64883a69108bc715fbc81",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.1789,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "Please refer to the Statement on Developmental and Regulatory Policies dated April 06, 2023 and December 06, 2024, expanding the scope of UPI by enabling transfer to / from pre-sanctioned credit lines at banks. DPSS.CO.PD No.629/02.01.014/2019-20 September 20, 2019 All Operators and Participants of Authorised Payment Systems Madam / Dear Sir, Harmonisation of Turn Around Time (TAT) and customer compensation for failed transactions using authorised Payment Systems Please refer to the Statement on Developmental and Regulatory policies issued as part of Monetary Policy statement dated April 4, 2019 wherein it was proposed that the Reserve Bank would put in place a framework on Turn Around Time (TAT) for resolution of customer complaints and compensation framework across all authorised payment systems. As announced in Statement on Developmental and Regulatory Policies dated February 08, 2024, in order to enable the payments ecosystem to leverage the technological advancements for implementing alternative authentication mechanisms, it has been decided to publish Reserve Bank of India (Authentication m echanisms for d igital payment transactions) Directions, 2025 (hereinafter referred to as “ Directions”).",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "306d43b437397d618bb3a52c",
+          "document_id": "A:ppi_md_2017",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "ec1229bdf2d9913a0e8848f8",
+          "document_id": "A:upi_credit_lines_2023",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "18ec331b11e3abb27aa8fabd",
+          "document_id": "A:tat_failed_txn_2019",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "21babd220b4f01ffeb1ff9f1",
+          "document_id": "A:auth_directions_2025",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "e09a101c91f9a77e4d0aa88f",
+          "document_id": "A:emandate_2024",
+          "page": 1,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g062",
+      "status_code": 200,
+      "latency_ms": 5933.402,
+      "trace_id": "8833cb4414e04b5797023942de1c5fdf",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.092,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "In case of non-bank issued PPIs, cash withdrawal is permitted upto a limit of ₹2,000/- per transaction within an overall monthly limit of ₹10,000/- per PPI across all channels(agents, ATMs, PoS devices, etc.). listed in II (b) and (c) above are in default or have been in default in the last five years in respect of credit facilities obtained from the bank or non-bank. III Details of some key Professional achievements in the areas of - Technology and payment system/transaction - Human resources management/Legal - Accounting/Finance IV Proceedings, if any, against the Director.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "562903b4da0b6128ecdc363a",
+          "document_id": "A:ppi_md_2021",
+          "page": 32,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "260ec4a82466527caa195131",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 20,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "29e4875eac9cb6fb45471add",
+          "document_id": "A:ppi_md_2021",
+          "page": 25,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "3206d82f653879a91698a956",
+          "document_id": "A:ppi_md_2017",
+          "page": 30,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "572834b61c699fce203eb70e",
+          "document_id": "A:ppi_faq",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g063",
+      "status_code": 200,
+      "latency_ms": 8049.917,
+      "trace_id": "3958c5b2f3414da5b5f13c5e734b425e",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.2,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "Yes, the cash loading of PPIs is limited to ₹50,000/- per month subject to overall limit of the PPI (not permitted in one type of Small PPI). The limit on loading of PPIs viaelectronic / online means is subject to overall limit of the PPI.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "bdc14d5a72a9b7a245313efb",
+          "document_id": "A:tat_failed_txn_2019",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a768e755f136272d7c790ca8",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 7,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "0d8f1905c3c70a4317de9a25",
+          "document_id": "A:ppi_md_2017",
+          "page": 34,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "3ddb17e4b117e9ef232109a4",
+          "document_id": "A:ppi_md_2017",
+          "page": 35,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "8ad88e5f5a221ac4d22558c9",
+          "document_id": "A:ppi_faq",
+          "page": 1,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g064",
+      "status_code": 200,
+      "latency_ms": 3093.851,
+      "trace_id": "09e0c1d9e4214d02bf61912d3bd07e38",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.1148,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "For the prevention of, and for coping with terrorist activities, the Central Government shall have power to — a) freeze, seize or attach funds and other financial assets or economic resources held by, on behalf of or at the direction of the individuals or entities listed in the Schedule to the Order, or any other person engaged in or suspected to be engaged in terrorism; b) prohibit any individual or entity from making any funds, financial assets or economic resources or related services available for the benefit of the individuals or entities listed in the Schedule to the Order or any other person engaged in or suspected to be engaged in terrorism; c) prevent the entry into or the transit through India of individuals listed in the Schedule to the Order or any other person engaged in or suspected to be engaged in terrorism\". For the prevention of, and for coping with terrorist activities, the Central Government shall have power to — a) freeze, seize or attach funds and other financial assets or economic resources held by, on behalf of or at the direction of the individuals or entities listed in the Schedule to the Order, or any other person engaged in or suspected to be engaged in terrorism; b) prohibit any individual or entity from making any funds, financial assets or economic resources or related services available for the benefit of the individuals or entities listed in the Schedule to the Order or any other person engaged in or suspected to be engaged in terrorism; c) prevent the entry into or the transit through India of individuals listed in the Schedule to the Order or any other person engaged in or suspected to be engaged in terrorism\". (1) other UNSCRs and (2) lists in the first schedule and the fourth schedule of UAPA, 1967 and any amendments to the same for compliance with the Government orders on implementation of section 51A of the UAPA and section 12A of the WMD Act.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "ed577a5f3671b30c8339a89c",
+          "document_id": "B:pmla_2002",
+          "page": 44,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "89024321ee42c3554ced5ced",
+          "document_id": "B:kyc_md_2025",
+          "page": 58,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "942aa3e1a87e078176b10915",
+          "document_id": "B:kyc_md_2025",
+          "page": 75,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "59c87430c331eebb42bfa32b",
+          "document_id": "B:kyc_md_2016",
+          "page": 74,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "1e48808e9fb94119c2452013",
+          "document_id": "B:pmla_2002",
+          "page": 7,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "9eecfeaae7341055cde421c2",
+          "document_id": "B:kyc_md_2025",
+          "page": 86,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g065",
+      "status_code": 200,
+      "latency_ms": 2636.323,
+      "trace_id": "746934d53b454fe28755c02088738b84",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.3636,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "value of such instruments denominated in INR that shall be issued. maximum value of such instruments, denominated in INR, that shall be issued to any holder, unless otherwise specified. A PA having a Certificate of Authorisation (CoA) issued by RBI, and a) already carrying on business as a PA -P – shall intimate RBI.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "036b55217bc69dde753ed231",
+          "document_id": "A:ppi_md_2021",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "04a50f85ba57bd00e8ec4319",
+          "document_id": "A:pa_md_2025",
+          "page": 18,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "90e9a1ef0d10a70926b61e0e",
+          "document_id": "A:ppi_md_2017",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "9eb1038e9b77e80c1c2700b6",
+          "document_id": "A:pa_md_2025",
+          "page": 6,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "ae0bd5928be16f56e8e62256",
+          "document_id": "A:pa_md_2025",
+          "page": 13,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g066",
+      "status_code": 200,
+      "latency_ms": 3583.865,
+      "trace_id": "73ae65a5fb63484ab01f8ccffc13977f",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.0,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "Page 4 of 21 Page 7 of 21 Page 21 of 21",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "17f190c82defa0ad43419de0",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "f28e29490d6e89247c23f6f9",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 7,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "f60a3a3a1b99fc4ddbad6b9c",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 21,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "f8f2477dd73b719b216a93a0",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 10,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "eb8d2e7538b5441b8e00b5fc",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 12,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "9d57c34ba2681febcf6d6d7c",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 13,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a6258e9be48ca4c7d5109e66",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 8,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "de11e15bae35e3ba4ab613f5",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "8ad88e5f5a221ac4d22558c9",
+          "document_id": "A:ppi_faq",
+          "page": 1,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g067",
+      "status_code": 200,
+      "latency_ms": 50696.649,
+      "trace_id": "2a29bd786f314f09aa32599754b473ef",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.4308,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "Entities regulated by any of the financial sector regulators shall apply along with a ‘No Objection Certificate’ from their respective regulator, within 45 days of obtaining such a clearance. banks and non-banks) have the option to offer interoperability. a) Banks and non-banks shall ensure that all new PPIs issued in the form of cards are EMV Chip and PIN compliant.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "3943248f7d957dd64bd746f0",
+          "document_id": "A:ppi_md_2021",
+          "page": 14,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "49ba986a64b96ed114769b61",
+          "document_id": "A:ppi_md_2021",
+          "page": 15,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "8f63cfacb202c6776e9996c7",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "360b5c0febc873c9aeda12ae",
+          "document_id": "A:ppi_md_2021",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "967757275e84b1d4264a9d5e",
+          "document_id": "A:ppi_faq",
+          "page": 4,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g068",
+      "status_code": 200,
+      "latency_ms": 16946.663,
+      "trace_id": "10e3ddf66959441d90fee61534aec965",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.0351,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "Yes, the cash loading of PPIs is limited to ₹50,000/- per month subject to overall limit of the PPI (not permitted in one type of Small PPI). The limit on loading of PPIs viaelectronic / online means is subject to overall limit of the PPI. The framework to limit the liability of customers (PPI holders) against unauthorised transactions in PPIs issued by non-bank issuers is given in paragraph 17 of the MD-PPIsand has come into effect from March 01, 2019.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "dd4f42ea866b2a2585e4a1f3",
+          "document_id": "A:ppi_md_2017",
+          "page": 17,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "8ad88e5f5a221ac4d22558c9",
+          "document_id": "A:ppi_faq",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "29e4875eac9cb6fb45471add",
+          "document_id": "A:ppi_md_2021",
+          "page": 25,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "967757275e84b1d4264a9d5e",
+          "document_id": "A:ppi_faq",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "d4276398ed15e96ab65dd6c8",
+          "document_id": "A:tat_failed_txn_2019",
+          "page": 5,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g069",
+      "status_code": 200,
+      "latency_ms": 2623.204,
+      "trace_id": "cf7ea0afdf27439999fc2f9eb37bf26e",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.2523,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "From the date of issuance of this Master Direction, PPI issuers shall cease to issue PPIs of any other category as permitted earlier except the following two categories: The details of all the existing co-branding arrangements by all PPI issuers shall be reported to DPSS, RBI, Central Office, Mumbai within one month of release of this Master Direction in the format enclosed ( Annex-4). For this purpose, the Issuers shall provide an option, including at the time of issuing the PPI, to the holder to provide details of pre- designated bank account or other PPIs of same issuer (or other issuers as and when permitted) to which the balance amount available in the PPI shall be transferred in the event of closure of PPI, expiry of validity period of such PPIs, etc.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "12df2cabc14d546bcaaf611d",
+          "document_id": "A:ppi_faq",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a52c89f7e25d658e479e2b71",
+          "document_id": "A:ppi_md_2017",
+          "page": 13,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "ae4e7fda45401c11671a9d8a",
+          "document_id": "A:ppi_md_2017",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "ad089fee2e5c1fa3ac221ea4",
+          "document_id": "A:ppi_md_2017",
+          "page": 9,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "e784711f894dc624cdc095b5",
+          "document_id": "A:ppi_md_2017",
+          "page": 11,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "967757275e84b1d4264a9d5e",
+          "document_id": "A:ppi_faq",
+          "page": 4,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g070",
+      "status_code": 200,
+      "latency_ms": 4128.217,
+      "trace_id": "a47622f771dc4b18aa5d50454d8b2a31",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.04,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "Yes, the cash loading of PPIs is limited to ₹50,000/- per month subject to overall limit of the PPI (not permitted in one type of Small PPI). The limit on loading of PPIs viaelectronic / online means is subject to overall limit of the PPI. Description of the incident Framework for auto-reversal and compensation Timeline for auto-reversal Compensation payable",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "8ad88e5f5a221ac4d22558c9",
+          "document_id": "A:ppi_faq",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "6d77dbdab5c631cde40b3beb",
+          "document_id": "A:ppi_md_2021",
+          "page": 38,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "d4276398ed15e96ab65dd6c8",
+          "document_id": "A:tat_failed_txn_2019",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "967757275e84b1d4264a9d5e",
+          "document_id": "A:ppi_faq",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "d0bb1b902841a5aeb8dafb28",
+          "document_id": "A:ppi_md_2021",
+          "page": 30,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g071",
+      "status_code": 200,
+      "latency_ms": 2737.823,
+      "trace_id": "bc152e217b5442e3bf77555320e740fa",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.5,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "An entity seeking authorisation to commence or carry on PA business shall have a minimum net-worth of ₹15 crore at the time of tendering application for authorisation; and shall attain a minimum net-worth of ₹25 crore by the end of third financial year of grant of authorisation. minimum positive net-worth of Rs.5 crore as per the latest audited balance sheet at the time of submitting the application. Thereafter, by the end of the third financial year from the date of receiving final authorisation, they shall achieve a minimum positive net -worth of Rs.15 crore which shall be maintained at all times.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "23eb7776e30779616658f81e",
+          "document_id": "A:pa_md_2025",
+          "page": 6,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a79b4625316091deeeba03b4",
+          "document_id": "A:ppi_md_2021",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "14648be966b5024f0906587e",
+          "document_id": "A:ppi_md_2021",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "dbec25fa3fb8fa18c86892d2",
+          "document_id": "A:ppi_md_2017",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "1e1b0cf99cce32d738d8aed7",
+          "document_id": "A:pa_guidelines_2020",
+          "page": 3,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g072",
+      "status_code": 200,
+      "latency_ms": 12021.418,
+      "trace_id": "7ba74fe069dc48948bc8c070f344a3f0",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.5915,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "The non-bank PPI issuer shall credit (notional reversal / shadow reversal) the amount involved in the unauthorised electronic payment transaction to the customer’s PPI within10 days from the date of such notification by the customer. customer’s account suo moto, without waiting for a complaint or claim from the customer. The number of days mentioned above shall be counted after excluding the date of receiving the communication from the non-bank PPI issuer.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "bdc14d5a72a9b7a245313efb",
+          "document_id": "A:tat_failed_txn_2019",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "fce762c1f803b88c3995d571",
+          "document_id": "A:pa_circular_2021",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "723409f44b59a1f6b7a0ac18",
+          "document_id": "A:ppi_faq",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "f8a9e174042ace185782a708",
+          "document_id": "A:ppi_faq",
+          "page": 5,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "bf02b694f9097ab3bd628e6e",
+          "document_id": "A:ppi_faq",
+          "page": 3,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g073",
+      "status_code": 200,
+      "latency_ms": 3567.042,
+      "trace_id": "a14e961360284a28a174aa5c8c90d7a9",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.05,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "CO.DPSS.POLC.No.S-518/02.14.003/2022-23 dated June 16, 2022, and e. offline mode CO.DPSS.POLC.No.S1264/02-14- 003/2021-2022 dated January 03, 2022 CO.DPSS.POLC.No.S-882/02.14.003/2023-24 dated December 12, 2023 Superceded by RBI/CO.DPSS.POLC.No.S56/02.14.003/2026-27 dated April 21, 2026",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "52289ab6712d3bf4f63b01d9",
+          "document_id": "A:auth_directions_2025",
+          "page": 7,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "bead620e0d659f87473c362c",
+          "document_id": "A:emandate_2024",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "73688ff75b76efb8f531ec31",
+          "document_id": "A:emandate_2022",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "786efb131e13820e83483396",
+          "document_id": "A:emandate_framework_2026",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "ead46d83d24a598b733ffcce",
+          "document_id": "A:ppi_md_2021",
+          "page": 30,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g074",
+      "status_code": 200,
+      "latency_ms": 4507.191,
+      "trace_id": "3bb4075671c84deda8bcddd58ee21019",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.381,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "Page 5 of 7 Yes, the cash loading of PPIs is limited to ₹50,000/- per month subject to overall limit of the PPI (not permitted in one type of Small PPI). The limit on loading of PPIs viaelectronic / online means is subject to overall limit of the PPI.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "4905b1406ea2cdef92178fee",
+          "document_id": "A:auth_directions_2025",
+          "page": 6,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "22c48f808d922ddcf9314057",
+          "document_id": "A:ppi_faq",
+          "page": 4,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "8ad88e5f5a221ac4d22558c9",
+          "document_id": "A:ppi_faq",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "bf02b694f9097ab3bd628e6e",
+          "document_id": "A:ppi_faq",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "ef8ca686097906ec9b831ea7",
+          "document_id": "A:ppi_faq",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g075",
+      "status_code": 200,
+      "latency_ms": 10210.038,
+      "trace_id": "333c358bcddc463ebbc3495a84092db0",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.1605,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "For the prevention of, and for coping with terrorist activities, the Central Government shall have power to — a) freeze, seize or attach funds and other financial assets or economic resources held by, on behalf of or at the direction of the individuals or entities listed in the Schedule to the Order, or any other person engaged in or suspected to be engaged in terrorism; b) prohibit any individual or entity from making any funds, financial assets or economic resources or related services available for the benefit of the individuals or entities listed in the Schedule to the Order or any other person engaged in or suspected to be engaged in terrorism; c) prevent the entry into or the transit through India of individuals listed in the Schedule to the Order or any other person engaged in or suspected to be engaged in terrorism\". For the prevention of, and for coping with terrorist activities, the Central Government shall have power to — a) freeze, seize or attach funds and other financial assets or economic resources held by, on behalf of or at the direction of the individuals or entities listed in the Schedule to the Order, or any other person engaged in or suspected to be engaged in terrorism; b) prohibit any individual or entity from making any funds, financial assets or economic resources or related services available for the benefit of the individuals or entities listed in the Schedule to the Order or any other person engaged in or suspected to be engaged in terrorism; c) prevent the entry into or the transit through India of individuals listed in the Schedule to the Order or any other person engaged in or suspected to be engaged in terrorism\". Recovery of fine or penalty .—Where any fine or penalty imposed on any person under section 13 or section 63 is not paid within six months from the day of imposition of fine or p enalty, the Director or any other officer authorised by him in this behalf may proceed to recover the amount from the said person in the same manner as prescribed in Schedule II of the Income -tax Act, 1961 (43 of 1961) for the recovery of arrears and he or any officer authorised by him in this behalf shall have all the powers of the Tax Recovery Officer mentioned in the said Schedule for the said purpose.]",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "dd671940218a1a5bd3900b6d",
+          "document_id": "B:pmla_2002",
+          "page": 43,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "942aa3e1a87e078176b10915",
+          "document_id": "B:kyc_md_2025",
+          "page": 75,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "59c87430c331eebb42bfa32b",
+          "document_id": "B:kyc_md_2016",
+          "page": 74,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "42b95a4a83319f72e23a32cf",
+          "document_id": "B:pmla_2002",
+          "page": 33,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "1e48808e9fb94119c2452013",
+          "document_id": "B:pmla_2002",
+          "page": 7,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "2ed14dea5f3aff9c4d45abc8",
+          "document_id": "B:kyc_md_2016",
+          "page": 82,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g076",
+      "status_code": 200,
+      "latency_ms": 4039.241,
+      "trace_id": "b67684674c504c74952db3938b4e621b",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.8667,
+      "failure": "none",
+      "judge": "llm",
+      "answer": "An issuer shall send a post-transaction notification to the customer . This notification shall, at the minimum, inform the customer about the merchant’s name, transaction amount, date and time of debit, reference number of transaction and e-mandate, reason for debit, i.e., e- mandate registered by the customer, and details on grievance redressal1. (a) An issuer shall send a pre-transaction notification to the customer, at least 24 hours prior to the actual charge / debit.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "12485e3cb6d4c9a4a85e3833",
+          "document_id": "A:emandate_framework_2026",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a46f95f4176351afb90808dc",
+          "document_id": "A:upi_ppi_tpap_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "96424dd14b94d3f129aa0296",
+          "document_id": "A:emandate_framework_2026",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "9943e325a7bcfe47f5bf154f",
+          "document_id": "A:emandate_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a6fca00cf331b8c6c4946e64",
+          "document_id": "A:emandate_framework_2026",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g077",
+      "status_code": 200,
+      "latency_ms": 29474.447,
+      "trace_id": "13373684fee249e7a6f8cb2ab2fd1be9",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.8667,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "An issuer shall send a post-transaction notification to the customer . This notification shall, at the minimum, inform the customer about the merchant’s name, transaction amount, date and time of debit, reference number of transaction and e-mandate, reason for debit, i.e., e- mandate registered by the customer, and details on grievance redressal1. (a) An issuer shall send a pre-transaction notification to the customer, at least 24 hours prior to the actual charge / debit.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "12485e3cb6d4c9a4a85e3833",
+          "document_id": "A:emandate_framework_2026",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a46f95f4176351afb90808dc",
+          "document_id": "A:upi_ppi_tpap_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "96424dd14b94d3f129aa0296",
+          "document_id": "A:emandate_framework_2026",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "9943e325a7bcfe47f5bf154f",
+          "document_id": "A:emandate_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a6fca00cf331b8c6c4946e64",
+          "document_id": "A:emandate_framework_2026",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g078",
+      "status_code": 200,
+      "latency_ms": 2456.142,
+      "trace_id": "35c6d4a58e5944a49547a6e3464227d0",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.125,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "and debit cards, PPIs (as permitted from time to time) and other payment instruments issued by regulated entities in India and shall be in INR only. credit and debit cards, and other PPIs (as permitted from time to time).",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "383c38bd06f0a23d9e54801c",
+          "document_id": "A:ppi_md_2021",
+          "page": 7,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "ff51e11ed71fb72785dc88ac",
+          "document_id": "A:ppi_md_2017",
+          "page": 7,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "bf5129555acb4b110e98ef33",
+          "document_id": "A:pa_md_2025",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "036b55217bc69dde753ed231",
+          "document_id": "A:ppi_md_2021",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "57dae3a1c085d9686d6452bf",
+          "document_id": "A:ppi_md_2021",
+          "page": 9,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g079",
+      "status_code": 200,
+      "latency_ms": 3929.067,
+      "trace_id": "53dfe82873e04973a5097915aea1d002",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.8125,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "96 Category Eligible Foreign Investors Accounts of FPIs which are eligible/ registered as per SEBI guidelines, for the purpose of investment under Portfolio Investment Scheme (PIS), shall be opened by accepting KYC documents as detailed in Annex IV , subject to Income Tax (FATCA/CRS) Rules. determining compliance with KYC norms.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "216bedb359c8e5cb7f170da1",
+          "document_id": "B:kyc_md_2025",
+          "page": 18,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "b19eb569aed75128c59fa706",
+          "document_id": "B:kyc_md_2016",
+          "page": 96,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "88eac42f9fead36ce9cefc6f",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 3,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "3cabb2ffe0d653084b12e846",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 4,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "511c8774703213f3fd742ded",
+          "document_id": "B:kyc_md_2016",
+          "page": 48,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g080",
+      "status_code": 200,
+      "latency_ms": 16739.405,
+      "trace_id": "03978a8e65f54ecdaa8f3c73272230cd",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.0,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "21 Section Description of offence",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "aeec1a0bfd4c955dfa926698",
+          "document_id": "B:kyc_md_2016",
+          "page": 21,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "e7ca58f21afba662715ee2a1",
+          "document_id": "B:pmla_2002",
+          "page": 46,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "11eecfbf282393f127ac1a5e",
+          "document_id": "B:kyc_md_2025",
+          "page": 21,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "2c0b3f7883450a20d3320ad2",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 40,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "8becffaca6a37c15da6f40b1",
+          "document_id": "B:pss_act_2007",
+          "page": 18,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g081",
+      "status_code": 200,
+      "latency_ms": 22423.007,
+      "trace_id": "2fdb4ea1ab574f95aef9b0097f315007",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.2,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "For the purpose of this Master Direction, the following definitions shall be applicable: Providers and System Participants.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "3927a59a19809ea82fd081f9",
+          "document_id": "A:ppi_md_2017",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "dc1346e38c2ed7291b5f8ef5",
+          "document_id": "A:ppi_md_2017",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a31391bd71e25e1f297a3fee",
+          "document_id": "A:ppi_md_2017",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "dd4f42ea866b2a2585e4a1f3",
+          "document_id": "A:ppi_md_2017",
+          "page": 17,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "50a5b0cac027515503829ace",
+          "document_id": "A:ppi_md_2017",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g082",
+      "status_code": 200,
+      "latency_ms": 5908.856,
+      "trace_id": "ca9e3db9c82c4780b2cd5faf5b0ab0d1",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.8667,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "An issuer shall send a post-transaction notification to the customer . This notification shall, at the minimum, inform the customer about the merchant’s name, transaction amount, date and time of debit, reference number of transaction and e-mandate, reason for debit, i.e., e- mandate registered by the customer, and details on grievance redressal1. (a) An issuer shall send a pre-transaction notification to the customer, at least 24 hours prior to the actual charge / debit.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "12485e3cb6d4c9a4a85e3833",
+          "document_id": "A:emandate_framework_2026",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a46f95f4176351afb90808dc",
+          "document_id": "A:upi_ppi_tpap_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "96424dd14b94d3f129aa0296",
+          "document_id": "A:emandate_framework_2026",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "9943e325a7bcfe47f5bf154f",
+          "document_id": "A:emandate_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a6fca00cf331b8c6c4946e64",
+          "document_id": "A:emandate_framework_2026",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g083",
+      "status_code": 200,
+      "latency_ms": 175.603,
+      "trace_id": "caa57813678a4a8c90b16b820fdda371",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.8667,
+      "failure": "none",
+      "judge": "llm",
+      "answer": "An issuer shall send a post-transaction notification to the customer . This notification shall, at the minimum, inform the customer about the merchant’s name, transaction amount, date and time of debit, reference number of transaction and e-mandate, reason for debit, i.e., e- mandate registered by the customer, and details on grievance redressal1. (a) An issuer shall send a pre-transaction notification to the customer, at least 24 hours prior to the actual charge / debit.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "12485e3cb6d4c9a4a85e3833",
+          "document_id": "A:emandate_framework_2026",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a46f95f4176351afb90808dc",
+          "document_id": "A:upi_ppi_tpap_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "96424dd14b94d3f129aa0296",
+          "document_id": "A:emandate_framework_2026",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "9943e325a7bcfe47f5bf154f",
+          "document_id": "A:emandate_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a6fca00cf331b8c6c4946e64",
+          "document_id": "A:emandate_framework_2026",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g084",
+      "status_code": 200,
+      "latency_ms": 109.353,
+      "trace_id": "1907e181622a40d98b663c0184ecbbfd",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.8667,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "An issuer shall send a post-transaction notification to the customer . This notification shall, at the minimum, inform the customer about the merchant’s name, transaction amount, date and time of debit, reference number of transaction and e-mandate, reason for debit, i.e., e- mandate registered by the customer, and details on grievance redressal1. (a) An issuer shall send a pre-transaction notification to the customer, at least 24 hours prior to the actual charge / debit.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "12485e3cb6d4c9a4a85e3833",
+          "document_id": "A:emandate_framework_2026",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a46f95f4176351afb90808dc",
+          "document_id": "A:upi_ppi_tpap_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "96424dd14b94d3f129aa0296",
+          "document_id": "A:emandate_framework_2026",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "9943e325a7bcfe47f5bf154f",
+          "document_id": "A:emandate_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a6fca00cf331b8c6c4946e64",
+          "document_id": "A:emandate_framework_2026",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g085",
+      "status_code": 200,
+      "latency_ms": 146.582,
+      "trace_id": "84ce8868a593444daa74d37df4a4f4ee",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.125,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "and debit cards, PPIs (as permitted from time to time) and other payment instruments issued by regulated entities in India and shall be in INR only. credit and debit cards, and other PPIs (as permitted from time to time).",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "383c38bd06f0a23d9e54801c",
+          "document_id": "A:ppi_md_2021",
+          "page": 7,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "ff51e11ed71fb72785dc88ac",
+          "document_id": "A:ppi_md_2017",
+          "page": 7,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "bf5129555acb4b110e98ef33",
+          "document_id": "A:pa_md_2025",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "036b55217bc69dde753ed231",
+          "document_id": "A:ppi_md_2021",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "57dae3a1c085d9686d6452bf",
+          "document_id": "A:ppi_md_2021",
+          "page": 9,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g086",
+      "status_code": 200,
+      "latency_ms": 191.011,
+      "trace_id": "7396f007f15d452a853b79f9201f3592",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.8125,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "96 Category Eligible Foreign Investors Accounts of FPIs which are eligible/ registered as per SEBI guidelines, for the purpose of investment under Portfolio Investment Scheme (PIS), shall be opened by accepting KYC documents as detailed in Annex IV , subject to Income Tax (FATCA/CRS) Rules. determining compliance with KYC norms.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "216bedb359c8e5cb7f170da1",
+          "document_id": "B:kyc_md_2025",
+          "page": 18,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "b19eb569aed75128c59fa706",
+          "document_id": "B:kyc_md_2016",
+          "page": 96,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "88eac42f9fead36ce9cefc6f",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 3,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "3cabb2ffe0d653084b12e846",
+          "document_id": "B:pss_act_faq.pdf",
+          "page": 4,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "511c8774703213f3fd742ded",
+          "document_id": "B:kyc_md_2016",
+          "page": 48,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g087",
+      "status_code": 200,
+      "latency_ms": 93.236,
+      "trace_id": "fedb1dca921f4e689f0b047053015f64",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": false,
+      "faithfulness": 1.0,
+      "correctness": 0.0,
+      "failure": "incorrect",
+      "judge": "lexical_fallback",
+      "answer": "21 Section Description of offence",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "aeec1a0bfd4c955dfa926698",
+          "document_id": "B:kyc_md_2016",
+          "page": 21,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "e7ca58f21afba662715ee2a1",
+          "document_id": "B:pmla_2002",
+          "page": 46,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "11eecfbf282393f127ac1a5e",
+          "document_id": "B:kyc_md_2025",
+          "page": 21,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "2c0b3f7883450a20d3320ad2",
+          "document_id": "B:dpdp_rules_2025",
+          "page": 40,
+          "tenant": "B"
+        },
+        {
+          "chunk_id": "8becffaca6a37c15da6f40b1",
+          "document_id": "B:pss_act_2007",
+          "page": 18,
+          "tenant": "B"
+        }
+      ]
+    },
+    {
+      "id": "g088",
+      "status_code": 200,
+      "latency_ms": 154.208,
+      "trace_id": "9bf6c15728174fcd9505075c000eb819",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.2,
+      "failure": "incorrect",
+      "judge": "llm",
+      "answer": "For the purpose of this Master Direction, the following definitions shall be applicable: Providers and System Participants.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "3927a59a19809ea82fd081f9",
+          "document_id": "A:ppi_md_2017",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "dc1346e38c2ed7291b5f8ef5",
+          "document_id": "A:ppi_md_2017",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a31391bd71e25e1f297a3fee",
+          "document_id": "A:ppi_md_2017",
+          "page": 1,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "dd4f42ea866b2a2585e4a1f3",
+          "document_id": "A:ppi_md_2017",
+          "page": 17,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "50a5b0cac027515503829ace",
+          "document_id": "A:ppi_md_2017",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g089",
+      "status_code": 200,
+      "latency_ms": 228.079,
+      "trace_id": "a7f17a75e5c54759a1c3e06b118cea6b",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.8667,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "An issuer shall send a post-transaction notification to the customer . This notification shall, at the minimum, inform the customer about the merchant’s name, transaction amount, date and time of debit, reference number of transaction and e-mandate, reason for debit, i.e., e- mandate registered by the customer, and details on grievance redressal1. (a) An issuer shall send a pre-transaction notification to the customer, at least 24 hours prior to the actual charge / debit.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "12485e3cb6d4c9a4a85e3833",
+          "document_id": "A:emandate_framework_2026",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a46f95f4176351afb90808dc",
+          "document_id": "A:upi_ppi_tpap_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "96424dd14b94d3f129aa0296",
+          "document_id": "A:emandate_framework_2026",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "9943e325a7bcfe47f5bf154f",
+          "document_id": "A:emandate_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a6fca00cf331b8c6c4946e64",
+          "document_id": "A:emandate_framework_2026",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g090",
+      "status_code": 200,
+      "latency_ms": 164.052,
+      "trace_id": "bfb836a824dc4a97b006e3546a840e35",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 0.8667,
+      "failure": "none",
+      "judge": "lexical_fallback",
+      "answer": "An issuer shall send a post-transaction notification to the customer . This notification shall, at the minimum, inform the customer about the merchant’s name, transaction amount, date and time of debit, reference number of transaction and e-mandate, reason for debit, i.e., e- mandate registered by the customer, and details on grievance redressal1. (a) An issuer shall send a pre-transaction notification to the customer, at least 24 hours prior to the actual charge / debit.",
+      "refused": false,
+      "citations": [
+        {
+          "chunk_id": "12485e3cb6d4c9a4a85e3833",
+          "document_id": "A:emandate_framework_2026",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a46f95f4176351afb90808dc",
+          "document_id": "A:upi_ppi_tpap_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "96424dd14b94d3f129aa0296",
+          "document_id": "A:emandate_framework_2026",
+          "page": 3,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "9943e325a7bcfe47f5bf154f",
+          "document_id": "A:emandate_2024",
+          "page": 2,
+          "tenant": "A"
+        },
+        {
+          "chunk_id": "a6fca00cf331b8c6c4946e64",
+          "document_id": "A:emandate_framework_2026",
+          "page": 2,
+          "tenant": "A"
+        }
+      ]
+    },
+    {
+      "id": "g091",
+      "status_code": 200,
+      "latency_ms": 143.8,
+      "trace_id": "64d9bbfa91b84a9394000200f7f5c139",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this from the available documents.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g092",
+      "status_code": 200,
+      "latency_ms": 74.408,
+      "trace_id": "58f54abc7e384eb3ac5fd97f4ed44bf2",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this from the available documents.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g093",
+      "status_code": 200,
+      "latency_ms": 110.833,
+      "trace_id": "401c8e75b1e549a3b7f80d655c2e99f9",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this from the available documents.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g094",
+      "status_code": 200,
+      "latency_ms": 87.427,
+      "trace_id": "150da84cac1d4a82a935cd588b68d3e1",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this from the available documents.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g095",
+      "status_code": 200,
+      "latency_ms": 83.068,
+      "trace_id": "260a1812540c4b6d98e56b6ba50f26f8",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this from the available documents.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g096",
+      "status_code": 200,
+      "latency_ms": 67.581,
+      "trace_id": "789f21916ce7449db861dbb2b6e3058e",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this from the available documents.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g097",
+      "status_code": 200,
+      "latency_ms": 55.462,
+      "trace_id": "e7b056be3a494c42a0d889220e5c2814",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this from the available documents.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g098",
+      "status_code": 200,
+      "latency_ms": 88.853,
+      "trace_id": "3b4f458c79fd4f3d8543d96bf4eba46d",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this from the available documents.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g099",
+      "status_code": 200,
+      "latency_ms": 55.547,
+      "trace_id": "83460c7d203a425fbf7dd5760a06a90e",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this from the available documents.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g100",
+      "status_code": 200,
+      "latency_ms": 79.053,
+      "trace_id": "b61dc1c2d8ba4a7e95b3b820520ef7c1",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this from the available documents.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g101",
+      "status_code": 200,
+      "latency_ms": 39.601,
+      "trace_id": "a355abe53a474d598daeb7116aa32b52",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this from the available documents.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g102",
+      "status_code": 200,
+      "latency_ms": 75.723,
+      "trace_id": "fce490d7dba640969a1f98440cab370a",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this from the available documents.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g103",
+      "status_code": 200,
+      "latency_ms": 66.622,
+      "trace_id": "e4f2aaa2156a49f3b23d8b333631c7e1",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this from the available documents.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g104",
+      "status_code": 200,
+      "latency_ms": 63.992,
+      "trace_id": "93ee79a15caf4f589d4878c962ca37ed",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this from the available documents.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g105",
+      "status_code": 200,
+      "latency_ms": 51.504,
+      "trace_id": "ff3ad9ac6c104794999c194afb9aa23f",
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this from the available documents.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g106",
+      "status_code": 422,
+      "latency_ms": 16.236,
+      "trace_id": null,
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this because it is outside the regulatory corpus.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g107",
+      "status_code": 422,
+      "latency_ms": 3.783,
+      "trace_id": null,
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this because it is outside the regulatory corpus.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g108",
+      "status_code": 422,
+      "latency_ms": 3.833,
+      "trace_id": null,
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this because it is outside the regulatory corpus.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g109",
+      "status_code": 422,
+      "latency_ms": 6.25,
+      "trace_id": null,
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this because it is outside the regulatory corpus.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g110",
+      "status_code": 422,
+      "latency_ms": 5.362,
+      "trace_id": null,
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this because it is outside the regulatory corpus.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g111",
+      "status_code": 422,
+      "latency_ms": 12.806,
+      "trace_id": null,
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this because it is outside the regulatory corpus.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g112",
+      "status_code": 422,
+      "latency_ms": 25.149,
+      "trace_id": null,
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this because it is outside the regulatory corpus.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g113",
+      "status_code": 422,
+      "latency_ms": 3.727,
+      "trace_id": null,
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this because it is outside the regulatory corpus.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g114",
+      "status_code": 422,
+      "latency_ms": 5.678,
+      "trace_id": null,
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this because it is outside the regulatory corpus.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g115",
+      "status_code": 422,
+      "latency_ms": 5.264,
+      "trace_id": null,
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this because it is outside the regulatory corpus.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g116",
+      "status_code": 422,
+      "latency_ms": 3.722,
+      "trace_id": null,
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this because it is outside the regulatory corpus.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g117",
+      "status_code": 422,
+      "latency_ms": 3.661,
+      "trace_id": null,
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this because it is outside the regulatory corpus.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g118",
+      "status_code": 422,
+      "latency_ms": 5.204,
+      "trace_id": null,
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this because it is outside the regulatory corpus.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g119",
+      "status_code": 422,
+      "latency_ms": 3.667,
+      "trace_id": null,
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this because it is outside the regulatory corpus.",
+      "refused": true,
+      "citations": []
+    },
+    {
+      "id": "g120",
+      "status_code": 422,
+      "latency_ms": 3.109,
+      "trace_id": null,
+      "schema_valid": true,
+      "refusal_correct": true,
+      "citation_correct": true,
+      "faithfulness": 1.0,
+      "correctness": 1.0,
+      "failure": "none",
+      "judge": "policy_refusal",
+      "answer": "I cannot answer this because it is outside the regulatory corpus.",
+      "refused": true,
+      "citations": []
+    }
+  ]
+}

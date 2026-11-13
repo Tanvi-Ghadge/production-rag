@@ -1,0 +1,3 @@
+pypdf
+numpy
+sentence-transformers
